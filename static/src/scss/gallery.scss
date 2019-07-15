@@ -1,0 +1,41 @@
+.gallery {
+  margin-top: 4rem;
+  .swiper-container {
+    height: 50vw;
+    max-height: 40rem;
+  }
+  .swiper-container-wrapper {
+    position: relative;
+  }
+  .swiper-slide {
+    position: relative;
+    .bg-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .swiper-button-prev, .swiper-button-next {
+    outline: none;
+    height: 5.375rem;
+    width: 2.5rem;
+    background-size: cover;
+  }
+  .swiper-button-prev {
+    background-image: url("../img/icon-img-arrow-left.svg");
+    left: auto;
+    right: calc(100% + 3rem);
+  }
+  .swiper-button-next {
+    background-image: url("../img/icon-img-arrow-right.svg");
+    right: auto;
+    left: calc(100% + 3rem);
+  }
+  .swiper-pagination-bullet {
+    background-color: $white;
+    height: 0.5rem;
+    width: 0.5rem;
+  }
+}

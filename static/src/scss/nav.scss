@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: "Proxima Nova", "Roboto", "Raleway", sans;
+    font-weight: 500; //medium
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        margin: 0; padding: 0;
+    }
+    li {
+        margin: 0; padding: 0;
+    }
+    a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $black;
+        padding: 0.5rem;
+    }
+}

@@ -1,0 +1,15 @@
+section#the-doctors {
+    padding: 0;
+    .container {
+        padding: 0;
+    }
+    .content-text {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+section#gallery {
+    display: none;
+}
