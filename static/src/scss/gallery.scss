@@ -1,8 +1,15 @@
 .gallery {
-  margin-top: 4rem;
+  margin: 4rem -1.5rem -3rem;
+  @media screen and (min-width: $tablet_lg) {
+    margin: 4rem 0 0 0;  
+  }
   .swiper-container {
-    height: 50vw;
+    height: 100vw;
     max-height: 40rem;
+    @media screen and (min-width: $tablet_lg) {
+      height: 50vw;
+      max-height: 40rem;
+    }
   }
   .swiper-container-wrapper {
     position: relative;
@@ -18,10 +25,15 @@
     }
   }
   .swiper-button-prev, .swiper-button-next {
+    display: none;
     outline: none;
     height: 5.375rem;
     width: 2.5rem;
     background-size: cover;
+    @media screen and (min-width: $tablet_lg) {
+      display: block;
+    }
+    //min-height: 54vw;
   }
   .swiper-button-prev {
     background-image: url("../img/icon-img-arrow-left.svg");

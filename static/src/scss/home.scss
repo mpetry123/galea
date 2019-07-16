@@ -1,7 +1,7 @@
 section#the-doctors {
     padding: 0;
     .container {
-        padding: 0;
+        
     }
     .content-text {
         display: flex;
@@ -9,7 +9,7 @@ section#the-doctors {
         justify-content: center;
         align-items: flex-start;
     }
-}
-section#gallery {
-    display: none;
+    .content-media {
+        margin: 0 calc(-1 * #{$container-padding});
+    }
 }

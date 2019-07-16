@@ -39,10 +39,7 @@ require_once('./header.php');
     </section>
     <section id="our-services">
         <div class="container">
-            <div class="text-and-media">
-                <div class="content-media">
-                <img src="./dist/img/feat-img-our-services-cropped.png" alt="Our Services" />
-                </div>
+            <div class="text-and-media order-invert-desktop">
                 <div class="content-text">
                     <h2 class="heading">Our Services</h2>
                     <p>With a focus on ground-breaking technology and 
@@ -54,6 +51,9 @@ require_once('./header.php');
                     services to our clinic in Toronto.
                     </p>
                     <a href="./page-about.php" class="cta">Learn More</a>
+                </div>
+                <div class="content-media">
+                    <img src="./dist/img/feat-img-our-services-cropped.png" alt="Our Services" />
                 </div>
             </div>
         </div>

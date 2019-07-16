@@ -1,15 +1,25 @@
 <head>
     <title>Galea</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./vendor/css/swiper.min.css">
     <link rel="stylesheet" href="./dist/css/main.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <a href="/static/page-home.php">
-                <img alt="logo" src="./dist/img/logo-img-full.svg" />
+            <a href="/static/page-home.php" class="branding">
+                <img class="logo logo-desktop"  alt="logo" src="./dist/img/logo-img-full.svg" />
+                <img class="logo logo-mobile" alt="logo" src="./dist/img/logo-img-top.svg" />
             </a>
-            <nav>
+            <div class="hamburger-container">
+                <ul class="hamburger" data-js="toggleMenu">
+                    <li class=""></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                </ul>
+            </div>
+            <nav data-js="menu" class="dropdown">
                 <ul>
                     <li>
                         <a href="./page-about.php">About</a>
