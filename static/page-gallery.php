@@ -3,14 +3,18 @@ require_once('./header.php');
 ?>
 
 <section id="hero" class="hero">
-    <div class="container multi-column">
-        <div class="callout">
-            <h2 class="heading">Gallery Overview</strong>
-            <p>Our clinic is not just a space – it is the physical embodiment of our philosophy as doctors and practitioners, and a sanctuary for our patients. We hope you find it comfortable, exciting, modernly rejuvenating,</p>
-            <a href="./page-about.php" class="cta">Learn More</a>
-        </div>
-        <div class="media">
-        <img src="./dist/img/hero-feat-img-gallery.png" alt="About Us Featured Image" />
+    <div class="container">
+        <h1 class="page-heading">Gallery</h1>
+        <div class="multi-column">
+            <div class="content">
+                <div class="copy">
+                    <h2 class="heading">Gallery Overview</h2>
+                    <p>Our clinic is not just a space – it is the physical embodiment of our philosophy as doctors and practitioners, and a sanctuary for our patients. We hope you find it comfortable, exciting, modernly rejuvenating,</p>
+                </div>
+            </div>
+            <div class="media">
+                <img src="./dist/img/hero-feat-img-gallery.png" alt="About Us Featured Image" />
+            </div>
         </div>
     </div>
 </section>

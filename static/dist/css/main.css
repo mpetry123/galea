@@ -3,6 +3,9 @@ html, body {
   padding: 0;
   font-size: 1rem; }
 
+img {
+  max-width: 100%; }
+
 section, header, footer {
   width: 100%;
   position: relative; }
@@ -21,52 +24,6 @@ section {
   @media screen and (min-width: 64rem) {
     section {
       padding: 6.25rem 0; } }
-  section .text-and-media {
-    display: flex;
-    flex-flow: row wrap; }
-    @media screen and (min-width: 64rem) {
-      section .text-and-media.order-invert-desktop > div:first-child {
-        order: 2; } }
-    @media screen and (min-width: 64rem) {
-      section .text-and-media.order-invert-desktop > div:last-child {
-        order: 1; } }
-    section .text-and-media > div {
-      width: 100%;
-      margin-bottom: 1.5rem; }
-      @media screen and (min-width: 64rem) {
-        section .text-and-media > div {
-          flex: 1 0 50%;
-          margin-bottom: 0; } }
-  section .multi-column {
-    display: flex;
-    width: 100%; }
-    @media screen and (min-width: 64rem) {
-      section .multi-column {
-        width: auto; } }
-    @media screen and (min-width: 64rem) {
-      section .multi-column.order-invert-desktop > div:first-child {
-        order: 2; } }
-    @media screen and (min-width: 64rem) {
-      section .multi-column.order-invert-desktop > div:last-child {
-        order: 1; } }
-    section .multi-column.align-vertical-center {
-      align-items: center; }
-    section .multi-column > div {
-      flex: 1 1 0;
-      margin: 0 2.5rem; }
-    section .multi-column .heading {
-      text-align: center; }
-    section .multi-column .copy {
-      display: inline-block;
-      margin: 0 auto; }
-  section .heading {
-    text-transform: uppercase;
-    line-height: 1; }
-  section .content-media {
-    display: flex;
-    justify-content: center; }
-  section img {
-    max-width: 100%; }
 
 .stand-out {
   display: block;
@@ -98,9 +55,10 @@ section {
 .bg-black {
   background: #000000;
   color: #FFFFFF; }
-  .bg-black .cta {
-    border: 1px solid #FFFFFF;
+  .bg-black a {
     color: #FFFFFF; }
+  .bg-black .cta {
+    border: 1px solid #FFFFFF; }
 
 .bg-gray {
   background-color: #F4F4F4;
@@ -248,6 +206,38 @@ footer {
         footer .notes a {
           margin: 0 0.25rem 0 0; } }
 
+section .row, section .multi-column {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%; }
+  @media screen and (min-width: 64rem) {
+    section .row, section .multi-column {
+      width: auto; } }
+  @media screen and (min-width: 64rem) {
+    section .row.order-invert-desktop > div:first-child, section .multi-column.order-invert-desktop > div:first-child {
+      order: 2; } }
+  @media screen and (min-width: 64rem) {
+    section .row.order-invert-desktop > div:last-child, section .multi-column.order-invert-desktop > div:last-child {
+      order: 1; } }
+  section .row.align-vertical-center, section .multi-column.align-vertical-center {
+    align-items: center; }
+  section .row > div, section .multi-column > div {
+    border: 1px solid red;
+    flex: 0 1 100%;
+    margin: 0 2.5rem; }
+    @media screen and (min-width: 64rem) {
+      section .row > div, section .multi-column > div {
+        flex: 1 1 0; } }
+  section .row .column, section .row .content, section .multi-column .column, section .multi-column .content {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center; }
+  section .row .heading, section .multi-column .heading {
+    text-align: center; }
+  section .row .copy, section .multi-column .copy {
+    display: inline-block;
+    margin: 0 auto; }
+
 nav {
   background-color: rgba(0, 0, 0, 0.5);
   font-family: "Proxima Nova", "Roboto", "Raleway", sans;
@@ -303,55 +293,6 @@ nav {
         display: inline-block;
         padding: 0.5rem; } }
 
-section.hero {
-  padding: 11.25rem 0 7.5rem; }
-  section.hero.bg-image {
-    padding: initial; }
-    section.hero.bg-image .container {
-      min-height: 54vw;
-      position: relative;
-      display: flex;
-      flex-flow: column wrap;
-      align-content: center;
-      justify-content: center; }
-    section.hero.bg-image .background-image {
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 100%;
-      height: 100%;
-      background-size: cover;
-      background-position: center; }
-  section.hero .multi-column {
-    align-items: center; }
-  section.hero .callout {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    text-align: center; }
-    section.hero .callout > * {
-      margin-bottom: 2rem; }
-      section.hero .callout > *:last-child {
-        margin-bottom: 0; }
-  section.hero .page-heading {
-    position: absolute;
-    transform: rotate(90deg);
-    text-transform: uppercase; }
-  section.hero .stand-out {
-    font-family: "Raleway";
-    line-height: 1.125;
-    font-weight: 600; }
-
-section#the-doctors {
-  padding: 0; }
-  section#the-doctors .content-text {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: flex-start; }
-  section#the-doctors .content-media {
-    margin: 0 calc(-1 * 1.5rem); }
-
 .gallery {
   margin: 4rem -1.5rem -3rem; }
   @media screen and (min-width: 64rem) {
@@ -395,5 +336,57 @@ section#the-doctors {
     background-color: #FFFFFF;
     height: 0.5rem;
     width: 0.5rem; }
+
+section.hero {
+  padding: 11.25rem 0 7.5rem; }
+  section.hero.bg-image {
+    padding: initial; }
+    section.hero.bg-image .container {
+      min-height: 54vw;
+      position: relative;
+      display: flex;
+      flex-flow: column wrap;
+      align-content: center;
+      justify-content: center; }
+    section.hero.bg-image .background-image {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center; }
+  section.hero .multi-column {
+    align-items: center; }
+  section.hero .callout {
+    /*display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        text-align: center;*/ }
+    section.hero .callout > * {
+      margin-bottom: 2rem; }
+      section.hero .callout > *:last-child {
+        margin-bottom: 0; }
+  section.hero .page-heading {
+    position: absolute;
+    transform: rotate(90deg);
+    text-transform: uppercase; }
+  section.hero .stand-out {
+    font-family: "Raleway";
+    line-height: 1.125;
+    font-weight: 600; }
+
+section#the-doctors {
+  padding: 0; }
+  section#the-doctors .content-text {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start; }
+  section#the-doctors .content-media {
+    margin: 0 calc(-1 * 1.5rem); }
+
+.page-gallery section#hero .copy {
+  max-width: 19rem; }
 
 /*# sourceMappingURL=main.css.map */
