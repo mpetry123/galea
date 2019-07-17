@@ -54,8 +54,11 @@ section {
     section .multi-column > div {
       flex: 1 1 0;
       margin: 0 2.5rem; }
+    section .multi-column .heading {
+      text-align: center; }
     section .multi-column .copy {
-      display: inline-block; }
+      display: inline-block;
+      margin: 0 auto; }
   section .heading {
     text-transform: uppercase;
     line-height: 1; }
@@ -70,11 +73,12 @@ section {
   text-transform: uppercase;
   font-size: 2.25rem;
   line-height: 1; }
-  .stand-out.large, .stand-out.symbol {
-    font-weight: 600; }
-  .stand-out.large {
+  .stand-out.large, .stand-out.symbol, .stand-out > .large, .stand-out > .symbol {
+    font-weight: 600;
+    display: block; }
+  .stand-out.large, .stand-out > .large {
     font-size: 2.625rem; }
-  .stand-out.symbol {
+  .stand-out.symbol, .stand-out > .symbol {
     font-size: 1.625rem; }
 
 .cta {
@@ -102,11 +106,18 @@ section {
   background-color: #F4F4F4;
   color: #000000; }
 
+.bg-white {
+  background-color: #FFFFFF;
+  color: #000000; }
+
 br {
   display: none; }
   @media screen and (min-width: 64rem) {
     br {
       display: block; } }
+
+.clip.with-content {
+  padding-top: 15%; }
 
 .clip-badge {
   /* Badge */
@@ -384,11 +395,5 @@ section#the-doctors {
     background-color: #FFFFFF;
     height: 0.5rem;
     width: 0.5rem; }
-
-.page-about header a {
-  color: #FFFFFF; }
-
-.page-about section#our-vision .heading {
-  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
