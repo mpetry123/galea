@@ -1,4 +1,14 @@
 section.hero {
+    &.bg-image {
+     .container {
+        min-height: 54vw;
+        position: relative;
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        justify-content: center;
+     }   
+    }
     .background-image {
         position: absolute;
         top: 0; right: 0;
@@ -6,20 +16,22 @@ section.hero {
         background-size: cover;
         background-position: center;
     }
-    .container {
-        min-height: 54vw;
-        position: relative;
-        display: flex;
-        flex-flow: column wrap;
-        align-content: center;
-        justify-content: center;
+    .multi-column {
+        align-items: center;
     }
     .callout {
         display: flex;
         flex-flow: column wrap;
         align-items: center;
         text-align: center;
-        @media screen and (min-width: $tablet_lg) {
-        }
+    }
+    .large, .symbol {
+        display: block;
+    }
+    .large {
+        font-size: 2.625rem;
+    }
+    .symbol {
+        font-size: 1.625rem;
     }
 }

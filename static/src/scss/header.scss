@@ -3,6 +3,7 @@ header {
     z-index: 9;
     background-color: rgba(100,100,100,0.5);
     @media screen and (min-width: $tablet_lg) {
+        position: absolute;
         background-color: transparent
     }
     .container {

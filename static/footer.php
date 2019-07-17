@@ -36,5 +36,6 @@
         </div>
     </footer>
     <script src="./vendor/js/swiper.min.js"></script>
+    <script src="./vendor/js/simpleParallax.min.js"></script>
     <script src="./dist/js/main.min.js"></script>
 </body>

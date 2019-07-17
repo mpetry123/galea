@@ -61,6 +61,16 @@ section {
             } 
         }
     }
+    .multi-column {
+        display: flex;
+        width: 100%;
+        @media screen and (min-width: $tablet_lg) {
+            width: auto;
+        }
+        & > div {
+            flex: 1 1 0;
+        }
+    }
     .heading {
         text-transform: uppercase;
         line-height: 1;
@@ -110,4 +120,12 @@ br {
     @media screen and (min-width: $tablet_lg) {
         display: block;
     }
+}
+.clip-badge {
+    /* Badge */
+    clip-path: polygon(0 0, 100% 0, 100% 55%, 95% 61%, 51% 100%, 4% 61%, 0 55%);   
+}
+.clip-m-shape {
+    /* M shape */
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0, 50% 40%);
 }

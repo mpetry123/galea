@@ -37,6 +37,14 @@ section {
         section .text-and-media > div {
           flex: 1 0 50%;
           margin-bottom: 0; } }
+  section .multi-column {
+    display: flex;
+    width: 100%; }
+    @media screen and (min-width: 64rem) {
+      section .multi-column {
+        width: auto; } }
+    section .multi-column > div {
+      flex: 1 1 0; }
   section .heading {
     text-transform: uppercase;
     line-height: 1; }
@@ -83,12 +91,21 @@ br {
     br {
       display: block; } }
 
+.clip-badge {
+  /* Badge */
+  clip-path: polygon(0 0, 100% 0, 100% 55%, 95% 61%, 51% 100%, 4% 61%, 0 55%); }
+
+.clip-m-shape {
+  /* M shape */
+  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0, 50% 40%); }
+
 header {
   position: fixed;
   z-index: 9;
   background-color: rgba(100, 100, 100, 0.5); }
   @media screen and (min-width: 64rem) {
     header {
+      position: absolute;
       background-color: transparent; } }
   header .container {
     position: relative;
@@ -252,6 +269,14 @@ nav {
         display: inline-block;
         padding: 0.5rem; } }
 
+section.hero.bg-image .container {
+  min-height: 54vw;
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  justify-content: center; }
+
 section.hero .background-image {
   position: absolute;
   top: 0;
@@ -261,19 +286,23 @@ section.hero .background-image {
   background-size: cover;
   background-position: center; }
 
-section.hero .container {
-  min-height: 54vw;
-  position: relative;
-  display: flex;
-  flex-flow: column wrap;
-  align-content: center;
-  justify-content: center; }
+section.hero .multi-column {
+  align-items: center; }
 
 section.hero .callout {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
   text-align: center; }
+
+section.hero .large, section.hero .symbol {
+  display: block; }
+
+section.hero .large {
+  font-size: 2.625rem; }
+
+section.hero .symbol {
+  font-size: 1.625rem; }
 
 section#the-doctors {
   padding: 0; }
@@ -328,5 +357,8 @@ section#the-doctors {
     background-color: #FFFFFF;
     height: 0.5rem;
     width: 0.5rem; }
+
+.page-about header a {
+  color: #FFFFFF; }
 
 /*# sourceMappingURL=main.css.map */

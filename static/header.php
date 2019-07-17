@@ -1,3 +1,10 @@
+<?php 
+    $path = explode("?",$_SERVER['REQUEST_URI']);
+    $filename = basename($path[0]);
+    $pageclass = explode(".", $filename )[0];
+    //echo $filename;
+    //print_r( $_SERVER ); 
+    ?>
 <head>
     <title>Galea</title>
     <meta charset="UTF-8" />
@@ -5,7 +12,7 @@
     <link rel="stylesheet" href="./vendor/css/swiper.min.css">
     <link rel="stylesheet" href="./dist/css/main.css">
 </head>
-<body>
+<body class="<?php echo $pageclass; ?>">
     <header>
         <div class="container">
             <a href="/static/page-home.php" class="branding">

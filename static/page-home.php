@@ -1,7 +1,7 @@
 <?php
 require_once('./header.php');
 ?>
-    <section id="hero" class="hero">
+    <section id="hero" class="hero bg-image">
         <div class="background-image" style="background-image: url('./dist/img/hero-img-page-home.jpg');"></div>
         <div class="container">
             <div class="callout">
@@ -106,14 +106,7 @@ require_once('./header.php');
             </div>
         </div>
     </section>
-    <section id="contact" class="bg-gray">
-        <div class="container align-center">
-            <h2 class="heading">Contact us</h2>
-            <p>If you seek to receive the absolute most out of life, and are passionate 
-                <br>about reaching your true potential, we encourage you to get in touch with us today.</p>
-            <a href="./page-about.php" class="cta">Contact Us</a>
-        </div>
-    </section>
+    <?php require('./component-contact-us.php'); ?>
 <?php
 require_once('./footer.php');
 ?>
