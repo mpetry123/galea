@@ -8,7 +8,7 @@ section, header, footer {
   position: relative; }
 
 div.container {
-  max-width: 68.75rem;
+  max-width: 78.75rem;
   margin: 0 auto;
   padding: 0 1.5rem; }
 
@@ -43,8 +43,19 @@ section {
     @media screen and (min-width: 64rem) {
       section .multi-column {
         width: auto; } }
+    @media screen and (min-width: 64rem) {
+      section .multi-column.order-invert-desktop > div:first-child {
+        order: 2; } }
+    @media screen and (min-width: 64rem) {
+      section .multi-column.order-invert-desktop > div:last-child {
+        order: 1; } }
+    section .multi-column.align-vertical-center {
+      align-items: center; }
     section .multi-column > div {
-      flex: 1 1 0; }
+      flex: 1 1 0;
+      margin: 0 2.5rem; }
+    section .multi-column .copy {
+      display: inline-block; }
   section .heading {
     text-transform: uppercase;
     line-height: 1; }
@@ -59,6 +70,12 @@ section {
   text-transform: uppercase;
   font-size: 2.25rem;
   line-height: 1; }
+  .stand-out.large, .stand-out.symbol {
+    font-weight: 600; }
+  .stand-out.large {
+    font-size: 2.625rem; }
+  .stand-out.symbol {
+    font-size: 1.625rem; }
 
 .cta {
   display: inline-block;
@@ -98,6 +115,12 @@ br {
 .clip-m-shape {
   /* M shape */
   clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0, 50% 40%); }
+
+.header-dark .logo.logo-light {
+  display: block; }
+
+.header-dark .logo.logo-dark {
+  display: none; }
 
 header {
   position: fixed;
@@ -269,40 +292,44 @@ nav {
         display: inline-block;
         padding: 0.5rem; } }
 
-section.hero.bg-image .container {
-  min-height: 54vw;
-  position: relative;
-  display: flex;
-  flex-flow: column wrap;
-  align-content: center;
-  justify-content: center; }
-
-section.hero .background-image {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center; }
-
-section.hero .multi-column {
-  align-items: center; }
-
-section.hero .callout {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  text-align: center; }
-
-section.hero .large, section.hero .symbol {
-  display: block; }
-
-section.hero .large {
-  font-size: 2.625rem; }
-
-section.hero .symbol {
-  font-size: 1.625rem; }
+section.hero {
+  padding: 11.25rem 0 7.5rem; }
+  section.hero.bg-image {
+    padding: initial; }
+    section.hero.bg-image .container {
+      min-height: 54vw;
+      position: relative;
+      display: flex;
+      flex-flow: column wrap;
+      align-content: center;
+      justify-content: center; }
+    section.hero.bg-image .background-image {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center; }
+  section.hero .multi-column {
+    align-items: center; }
+  section.hero .callout {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center; }
+    section.hero .callout > * {
+      margin-bottom: 2rem; }
+      section.hero .callout > *:last-child {
+        margin-bottom: 0; }
+  section.hero .page-heading {
+    position: absolute;
+    transform: rotate(90deg);
+    text-transform: uppercase; }
+  section.hero .stand-out {
+    font-family: "Raleway";
+    line-height: 1.125;
+    font-weight: 600; }
 
 section#the-doctors {
   padding: 0; }
@@ -360,5 +387,8 @@ section#the-doctors {
 
 .page-about header a {
   color: #FFFFFF; }
+
+.page-about section#our-vision .heading {
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

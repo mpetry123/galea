@@ -3,37 +3,47 @@ require_once('./header.php');
 ?>
 
 <section id="hero" class="hero bg-black">
-    <div class="container multi-column">
-        <div class="callout">
-            <strong class="stand-out">The Future of you</strong>
-            <a href="./page-about.php" class="cta">Learn More</a>
-        </div>
-        <div class="media">
-        <img src="./dist/img/hero-img-about.png" alt="About Us Featured Image" />
+    <div class="container">
+        <h1 class="page-heading">About</h1>
+        <div class="multi-column">
+            <div class="callout">
+                <strong class="stand-out">
+                    About Us
+                </strong>
+                <strong class="stand-out large">
+                    From Innovation<br>
+                    comes regeneration
+                </strong>
+            </div>
+            <div class="media">
+                <img src="./dist/img/hero-img-about.png" width="510" alt="About Us Featured Image" />
+            </div>
         </div>
     </div>
 </section>
-<section id="about-us" class="bg-gray">
+<section id="our-vision" class="bg-gray">
     <div class="container">
-        <div class="text-and-media order-invert-desktop"">
-            <div class="content-text">
-                <h2 class="heading">Our Vision</h2>
-                <p>The Institute of Human Mechanics was founded by Dr.
-                    <br> Anthony Galea, a visionary physician who believes 
-                    <br>in administering the best solutions possible for his patients, 
-                    <br>no matter what stands in his way.</p>
-                <p>With ground- breaking innovation including using Platelet 
-                    <br>Rich Plasma Therapy (PRP) to treat injury as well as his 
-                    <br>patented Cytorich formula, Dr. Galea has transformed the 
-                    <br>lives of his patients for the better, including Alexander 
-                    <br>Rodriguez, Tiger Woods and as a physician for Team 
-                    <br>Canada in the 1998 Winter Olympics. A visionary with sight 
-                    <br>set on a new world of healthcare, Dr. Galea is recruiting 
-                    <br>the best healthcare practitioners from across the world 
-                    <br>who are making his vision a reality.</p>
+        <div class="multi-column order-invert-desktop align-vertical-center">
+            <div class="content">
+                <div class="copy">
+                    <h2 class="heading">Our Vision</h2>
+                    <p>The Institute of Human Mechanics was founded by Dr.
+                        <br> Anthony Galea, a visionary physician who believes 
+                        <br>in administering the best solutions possible for his patients, 
+                        <br>no matter what stands in his way.</p>
+                    <p>With ground- breaking innovation including using Platelet 
+                        <br>Rich Plasma Therapy (PRP) to treat injury as well as his 
+                        <br>patented Cytorich formula, Dr. Galea has transformed the 
+                        <br>lives of his patients for the better, including Alexander 
+                        <br>Rodriguez, Tiger Woods and as a physician for Team 
+                        <br>Canada in the 1998 Winter Olympics. A visionary with sight 
+                        <br>set on a new world of healthcare, Dr. Galea is recruiting 
+                        <br>the best healthcare practitioners from across the world 
+                        <br>who are making his vision a reality.</p>
+                </div>
             </div>
-            <div class="content-media">
-                <img src="./dist/img/feat-img-about-us-cropped.png" alt="About Us Featured Image" />
+            <div class="content">
+                <img src="./dist/img/feat-img-our-vision.png" alt="Our Vision" />
             </div>
         </div>
     </div>

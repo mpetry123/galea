@@ -1,8 +1,10 @@
 <?php 
     $path = explode("?",$_SERVER['REQUEST_URI']);
     $filename = basename($path[0]);
-    $pageclass = explode(".", $filename )[0];
-    //echo $filename;
+    $page_class = explode(".", $filename )[0];
+    $theme_color = array("page-about"=>0, "page-home"=>1);
+    $dark_header = ( $theme_color[$page_class] == 0 ) ? true : false;
+    //echo $theme_color[$page_class];
     //print_r( $_SERVER ); 
     ?>
 <head>
@@ -12,12 +14,17 @@
     <link rel="stylesheet" href="./vendor/css/swiper.min.css">
     <link rel="stylesheet" href="./dist/css/main.css">
 </head>
-<body class="<?php echo $pageclass; ?>">
+<body class="<?php echo $page_class . " " . $header_theme; ?>">
     <header>
         <div class="container">
             <a href="/static/page-home.php" class="branding">
-                <img class="logo logo-desktop"  alt="logo" src="./dist/img/logo-img-full.svg" />
-                <img class="logo logo-mobile" alt="logo" src="./dist/img/logo-img-top.svg" />
+                <?php if($dark_header) : ?>
+                    <img class="logo logo-desktop logo-light"  alt="logo" src="./dist/img/logo-img-full-light.svg" />
+                    <img class="logo logo-mobile logo-light" alt="logo" src="./dist/img/logo-img-top-light.svg" />
+                <?php else : ?>
+                    <img class="logo logo-mobile logo-dark" alt="logo" src="./dist/img/logo-img-top.svg" />
+                    <img class="logo logo-desktop logo-dark"  alt="logo" src="./dist/img/logo-img-full.svg" />
+                <?php endif; ?>
             </a>
             <div class="hamburger-container">
                 <ul class="hamburger" data-js="toggleMenu">
