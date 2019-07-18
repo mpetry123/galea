@@ -1,7 +1,7 @@
 .gallery {
   margin: 4rem -1.5rem -3rem;
-  @media screen and (min-width: $tablet_lg) {
-    margin: 4rem 0 0 0;  
+  @media screen and (min-width: $tablet_sm) {
+    margin: 4rem 5% 0; 
   }
   .swiper-container {
     height: 100vw;
@@ -25,29 +25,44 @@
     }
   }
   .swiper-button-prev, .swiper-button-next {
-    display: none;
     outline: none;
-    height: 5.375rem;
-    width: 2.5rem;
     background-size: cover;
     @media screen and (min-width: $tablet_lg) {
+      height: 5.375rem;
+      width: 2.5rem;
       display: block;
     }
     //min-height: 54vw;
   }
   .swiper-button-prev {
-    background-image: url("../img/icon-img-arrow-left.svg");
-    left: auto;
-    right: calc(100% + 3rem);
+    left: 0.75rem;
+    background-image: url("../img/icon-img-arrow-left-light.svg");
+    
+    @media screen and (min-width: $tablet_sm) {
+      right: calc(100% + 2.5%);
+      left: auto;
+      background-image: url("../img/icon-img-arrow-left.svg");
+    }
   }
   .swiper-button-next {
-    background-image: url("../img/icon-img-arrow-right.svg");
-    right: auto;
-    left: calc(100% + 3rem);
+    right: 0.75rem;
+    background-image: url("../img/icon-img-arrow-right-light.svg");
+    @media screen and (min-width: $tablet_sm) {
+      left: calc(100% + 2.5%);
+      right: auto;
+      background-image: url("../img/icon-img-arrow-right.svg");
+    }
+  }
+  .swiper-pagination-bullets {
+    bottom: 1.5rem;
   }
   .swiper-pagination-bullet {
     background-color: $white;
     height: 0.5rem;
     width: 0.5rem;
+    @media screen and (min-width: $tablet_sm) {
+      height: 1rem;
+      width: 1rem;
+    }
   }
 }

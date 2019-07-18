@@ -5,7 +5,12 @@ require_once('./header.php');
 <section id="hero" class="hero bg-black">
     <div class="container">
         <h1 class="page-heading">About</h1>
-        <div class="row">
+        <div class="row order-invert-desktop">
+            <div class="column">
+                <picture>
+                    <img src="./dist/img/hero-img-about.png" width="510" alt="About Us Featured Image" />
+                </picture>
+            </div>
             <div class="column align-center">
                 <div class="copy justify-center">
                     <strong class="stand-out">
@@ -16,11 +21,6 @@ require_once('./header.php');
                         comes regeneration
                     </strong>
                 </div>
-            </div>
-            <div class="column">
-                <picture>
-                    <img src="./dist/img/hero-img-about.png" width="510" alt="About Us Featured Image" />
-                </picture>
             </div>
         </div>
     </div>
@@ -53,7 +53,7 @@ require_once('./header.php');
         </div>
     </div>
 </section>
-<section id="about-us">
+<section id="understanding-prp">
     <div class="container">
         <div class="multi-column">
             <div class="column">
@@ -67,8 +67,8 @@ require_once('./header.php');
                 <h2 class="heading">PLATELET RICH PLASMA (PRP) THERAPY</h2>
                 <p>Platelet Rich Plasma, therapy is a treatment
                     <br> designed to aid in the healing and regeneration of 
-                    <br>soft tissues such as tendons, ligaments and <
-                        br>muscles. PRP is the injection of the patients own 
+                    <br>soft tissues such as tendons, ligaments and 
+                        <br>muscles. PRP is the injection of the patients own 
                         <br>platelets, in high concentration into an injured 
                         <br>tendon, ligament or muscle tear. The platelets 
                         <br>contain growth factors which help stimulate natural 

@@ -5,9 +5,12 @@ require_once('./header.php');
 <section id="hero" class="hero bg-gray">
     <div class="container">
     <h1 class="page-heading">Gallery</h1>
-        <div class="row">
+        <div class="row order-invert-desktop">
+            <div class="column">
+                <img src="./dist/img/hero-feat-img-services.png" alt="" />
+            </div>
             <div class="column align-center">
-                <div class="copy">
+                <div class="copy justify-center">
                     <strong class="stand-out">
                         PRP 
                         <span class="symbol">&</span> 
@@ -15,13 +18,10 @@ require_once('./header.php');
                     </strong>
                 </div>
             </div>
-            <div class="column">
-                <img src="./dist/img/hero-feat-img-services.png" alt="" />
-            </div>
         </div>
     </div>
 </section>
-<section id="about-us">
+<section id="our-vision">
     <div class="container">
         <div class="row">
             <div class="column">

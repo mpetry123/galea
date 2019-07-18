@@ -6,7 +6,7 @@ require_once('./header.php');
         <div class="container">
             <div class="callout">
                 <strong class="stand-out">The Future of you</strong>
-                <a href="./page-about.php" class="cta">Learn More</a>
+                <a href="./page-about.php" class="cta">Contact Us</a>
             </div>
         </div>
     </section>
@@ -46,7 +46,7 @@ require_once('./header.php');
     <section id="our-services">
         <div class="container">
             <div class="row order-invert-desktop">
-                <div class="column justify-left">
+                <div class="column align-center justify-left">
                     <div class="copy">
                         <h2 class="heading align-left">Our Services</h2>
                         <div class="break"></div>
@@ -106,10 +106,11 @@ require_once('./header.php');
         </div>
     </section>
     <section id="gallery">
-        <div class="container align-center">
+        <div class="container text-align-center">
             <h2 class="heading">Gallery</h2>
             <p>Take a look around our state-of-the-art clinic.</p>
             <a href="#gallery" class="cta">See All</a>
+            
             <!-- Swiper -->
             <div class="gallery">
                 <div class="swiper-container-wrapper">

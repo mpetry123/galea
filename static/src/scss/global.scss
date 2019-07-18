@@ -1,15 +1,17 @@
 $black : #000000;
 $white: #FFFFFF;
 $gray : #F4F4F4;
-$dark-gray: #C7C7C7;
+$dark-gray: #707070;
 
 $mobile: 30rem; // 480px;
 $tablet_sm: 48rem; // 768px
 $tablet_lg: 64rem; //1024px
 $dekstop: 90rem; //1440px
 
-$container-width: 78.75rem;
+$container-width: 81.25rem;
 $container-padding: 1.5rem;
+
+$semibold: 600;
 
 $proxima-nova:  "Proxima Nova", "Roboto", "Raleway", "Arial", sans;
 $roboto: "Roboto", "Proxima Nova", "Raleway", "Arial", sans;
@@ -35,19 +37,31 @@ div.container {
 }
 section {
     position: relative;
-    font-family: "Raleway", sans;
+    font-family: $raleway;
     font-size: 0.875rem;
     line-height: 1.333rem;
     padding: 3rem 0;
     @media screen and (min-width: $tablet_lg) {
         padding: 6.25rem 0;
     }
+    &.no-padding {
+        padding: 0;
+    }
     img {
-        margin: 1rem 0 ;
+        margin: 2rem 0 ;
+    }
+    .copy {
+        .heading {
+            font-size: 1.125rem;
+        }
+    }
+    p {
+        letter-spacing: 1.25;
+        line-height: 1.625;
     }
 }
 .heading {
-    font-size: $roboto;
+    font-family: $roboto;
     text-transform: uppercase;
 }
 .stand-out {
@@ -69,16 +83,15 @@ section {
 .cta {
     display: inline-block;
     margin-top: 1rem;
-    border: 1px solid $black;
+    border: 1px solid $dark-gray;
     text-transform: uppercase;
     color: $black;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.375rem;
     font-family: "Roboto", sans;
     font-weight: 500;
-}
-.align-center {
-    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 1.25;
 }
 .bg-black {
     background: $black;
@@ -100,12 +113,9 @@ section {
 }
 br {
     display: none;
-    @media screen and (min-width: $tablet_lg) {
+    @media screen and (min-width: $dekstop) {
         display: block;
     }
-}
-.clip.with-content {
-    padding-top: 15%;
 }
 .clip-badge {
     /* Badge */
@@ -124,7 +134,11 @@ br {
     }
 }
 .location-and-contact-info {
+    padding: 15% 10%;
     > * {
         margin: 0 auto;
     }
+}
+.text-align-center {
+    text-align: center;
 }

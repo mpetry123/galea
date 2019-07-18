@@ -30,15 +30,20 @@ section {
             align-items: flex-start;
             flex: 0 1 100%;
             @media screen and (min-width: $tablet_sm) {
-                margin: 0 2.5rem;
+                margin: 0 5%;
                 flex: 1 1 0;    
             }
         }
+    }
+
         .copy {
             display: flex;
             flex-flow: row wrap;
             width: 100%;
-            max-width: 26.25rem;
+            
+            @media screen and (min-width: $tablet_sm) {
+                max-width: 28rem;
+            }
             > * {
                 &.break {
                     flex-basis: 100%;
@@ -62,21 +67,24 @@ section {
                 text-align: center;
             }
         }
-        .column, .copy {
+        .container, .column, .copy {
             
             &.justify-left {
-                justify-content: flex-start;
+                @media screen and (min-width: $tablet_sm) {
+                    justify-content: flex-start;
+                }
             }
             &.justify-center {
                 justify-content: center;
             }
             &.justify-right {
-                justify-content: flex-end;
+                @media screen and (min-width: $tablet_sm) {
+                    justify-content: flex-end;
+                }
             }
             &.align-center {
                 align-items: center;
                 align-content: center;
             }
         }
-    }
 }

@@ -4,36 +4,38 @@ require_once('./header.php');
 <section id="hero" class="hero bg-black">
     <div class="container">
     <h1 class="page-heading">Contact</h1>
-        <div class="row">
-            <div class="column align-center">
-                <div class=" justify-center">
-                    <h2 class="heading stand-out">GET IN <br> TOUCH</h2>
-                </div>
-                <div class="clip clip-m-shape with-content bg-white location-and-contact-info">
-                    <address>199 Avenue Rd Toronto M5R 2J3</address>    
-                    <div class="break"></div>
-                    <p>
-                        <strong>Phone</strong><a href="tel:1416123123">416.123.123</a>
-                        <br>
-                        </strong>Fax</strong><a href="tel:1416123123">416.123.123</a>
-                        <br>
-                        <strong>Email</strong><a href="mailto:email@email.com">email@email.com</a>
-                    </p>
-                </div>
-            </div>
+        <div class="row order-invert-desktop">
             <div class="column">
                 <img src="./dist/img/hero-feat-img-map.png" alt="About Us Featured Image" />
+            </div>
+            <div class="column align-center">
+                <div class="copy justify-center">
+                    <h2 class="heading stand-out">GET IN <br> TOUCH</h2>
+                    <div class="break"></div>
+                    <div class="bg-white location-and-contact-info">
+                        <address>199 Avenue Rd Toronto M5R 2J3</address>    
+                        <div class="break"></div>
+                        <p>
+                            <strong>Phone</strong><a href="tel:1416123123">416.123.123</a>
+                            <br>
+                            </strong>Fax</strong><a href="tel:1416123123">416.123.123</a>
+                            <br>
+                            <strong>Email</strong><a href="mailto:email@email.com">email@email.com</a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
 <section>
     <div class="container">
-        <div class="multi-column">
-            <div class="content">
+        <div class="row">
+            <div class="column">
                 <img src="./dist/img/feat-img-contact.png" alt="" />
             </div>
-            <div class="content">
+            <div class="column">
+                <div class="copy">
                 <h2 class="heading">Leave us a message</h2>
                 <div class="break"></div>
                 <form>
@@ -55,6 +57,7 @@ require_once('./header.php');
                         </textarea>
                     </div>
                 </form>
+                </div>
             </div>
         </div>
     </div>

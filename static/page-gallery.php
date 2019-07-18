@@ -5,15 +5,15 @@ require_once('./header.php');
 <section id="hero" class="hero">
     <div class="container">
         <h1 class="page-heading">Gallery</h1>
-        <div class="row">
-            <div class="column">
-                <div class="copy">
-                    <h2 class="heading">Gallery Overview</h2>
-                    <p>Our clinic is not just a space – it is the physical embodiment of our philosophy as doctors and practitioners, and a sanctuary for our patients. We hope you find it comfortable, exciting, modernly rejuvenating,</p>
-                </div>
-            </div>
+        <div class="row order-invert-desktop">
             <div class="column">
                 <img src="./dist/img/hero-feat-img-gallery.png" alt="About Us Featured Image" />
+            </div>
+            <div class="column align-center">
+                <div class="copy">
+                    <h2 class="heading justify-self-center justify-self">Gallery Overview</h2>
+                    <p>Our clinic is not just a space – it is the physical embodiment of our philosophy as doctors and practitioners, and a sanctuary for our patients. We hope you find it comfortable, exciting, modernly rejuvenating,</p>
+                </div>
             </div>
         </div>
     </div>

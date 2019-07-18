@@ -4,18 +4,18 @@ require_once('./header.php');
 <section id="hero" class="hero bg-black">
     <div class="container">
         <h1 class="page-heading">Doctors</h1>
-        <div class="row">
+        <div class="row order-invert-desktop">
+            <div class="column">
+                <img src="./dist/img/hero-feat-img-doctors.png" alt="Featured Image" />
+            </div>
             <div class="column align-center">
-                <div class="copy">
+                <div class="copy justify-center">
                     <strong class="stand-out">
                         Sports 
                         <br>
                         Medicine
                     </strong>
                 </div>    
-            </div>
-            <div class="column">
-                <img src="./dist/img/hero-feat-img-doctors.png" alt="Featured Image" />
             </div>
         </div>
     </div>
@@ -150,11 +150,13 @@ require_once('./header.php');
         <div class="row">
             <div class="column justify-left align-center">
                 <div class="copy">
+                    <div class="justify-self-center justify-self">
                     <h2 class="heading">DR IRINA BROKHMAN</h2>
                     <div class="break"></div>
                     <div class="position-and-credentials">
                         <div><abbr title="Doctor of Philosophy">Ph. D</abbr></div>
                         <div>Vice President Research and Development</div>
+                    </div>
                     </div>
                     <p>
                     Dr Irina Brokhman completed her Master degree in 
