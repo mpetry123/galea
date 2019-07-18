@@ -1,15 +1,3 @@
 section#the-doctors {
-    padding: 0;
-    .container {
-        
-    }
-    .content-text {
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: center;
-        align-items: flex-start;
-    }
-    .content-media {
-        margin: 0 calc(-1 * #{$container-padding});
-    }
+   
 }

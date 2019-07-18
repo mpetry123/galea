@@ -11,6 +11,10 @@ $dekstop: 90rem; //1440px
 $container-width: 78.75rem;
 $container-padding: 1.5rem;
 
+$proxima-nova:  "Proxima Nova", "Roboto", "Raleway", "Arial", sans;
+$roboto: "Roboto", "Proxima Nova", "Raleway", "Arial", sans;
+$raleway: "Raleway", "Proxima Nova", "Roboto", "Arial", sans;
+
 
 html, body {
     margin: 0;
@@ -38,6 +42,13 @@ section {
     @media screen and (min-width: $tablet_lg) {
         padding: 6.25rem 0;
     }
+    img {
+        margin: 1rem 0 ;
+    }
+}
+.heading {
+    font-size: $roboto;
+    text-transform: uppercase;
 }
 .stand-out {
     display: block;

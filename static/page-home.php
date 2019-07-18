@@ -13,9 +13,10 @@ require_once('./header.php');
     <section id="about-us" class="bg-gray">
         <div class="container">
             <div class="row">
-                <div class="column">
+                <div class="column justify-left">
                     <div class="copy">
-                        <h2 class="heading">About Us</h2>
+                        <h2 class="heading align-left">About Us</h2>
+                        <div class="break"></div>
                         <p>Visualize your body, and internalize its form. Your 
                             <br>bones are not just bones. They are immaculate 
                             <br>pieces of biological construction designed to move, 
@@ -30,6 +31,7 @@ require_once('./header.php');
                             <br>machine.</p>
                         <p>This is The Institute of Human Mechanics.
                             <br>Optimize your machine.</p>
+                            <div class="break"></div>
                         <a href="./page-about.php" class="cta">Learn More</a>
                     </div>
                 </div>
@@ -44,21 +46,29 @@ require_once('./header.php');
     <section id="our-services">
         <div class="container">
             <div class="row order-invert-desktop">
-                <div class="column">
+                <div class="column justify-left">
                     <div class="copy">
-                        <h2 class="heading">Our Services</h2>
+                        <h2 class="heading align-left">Our Services</h2>
+                        <div class="break"></div>
                         <p>With a focus on ground-breaking technology and 
-                            medical innovations, The Institute of Human Mechanics 
-                            is the world’s premier hub for regenerative medicine. 
-                            IHM provides our patients a superior level of care, while focusing on alternative treatments for osteoarthritis and sports-related muscle, ligament, and tendon injuries. 
-                            With our patented CytoRich technology (approved by Health Canada), patients are discovering a new potential they never thought possible. As part of our commitment 
-                            to help our patients get the absolute most of their lives, IHM is proud to welcome the TMB MedSpa and their cosmetic and and their full suite of body sculpting 
-                            services to our clinic in Toronto.
+                        <br>medical innovations, The Institute of Human Mechanics 
+                        <br>is the world’s premier hub for regenerative medicine. 
+                        <br>IHM provides our patients a superior level of care, while 
+                        <br>focusing on alternative treatments for osteoarthritis and 
+                        <br>sports-related muscle, ligament, and tendon injuries. 
+                        <br>With our patented CytoRich technology (approved by 
+                        <br>Health Canada), patients are discovering a new potential 
+                        <br>they never thought possible. As part of our commitment 
+                        <br>to help our patients get the absolute most of their 
+                        <br>lives, IHM is proud to welcome the TMB MedSpa and 
+                        <br>their cosmetic and and their full suite of body sculpting 
+                        <br>services to our clinic in Toronto.
                         </p>
+                        <div class="break"></div>
                         <a href="./page-about.php" class="cta">Learn More</a>
                     </div>
                 </div>
-                <div class="column">
+                <div class="column justify-left">
                     <picture>
                         <img src="./dist/img/feat-img-our-services-cropped.png" alt="Our Services" />
                     </picture>
@@ -71,15 +81,20 @@ require_once('./header.php');
             <div class="row">
                 <div class="column">
                     <div class="copy">
-                        <h2 class="heading">The Doctors</h2>
+                        <h2 class="heading justify-self justify-self-center">The Doctors</h2>
+                        <div class="break"></div>
+                        <div class="justify-self justify-self-center">
                         <p>While each of our doctors have different expertise in a 
-                            <br>wide variety of medical fields and specialties, a common vision 
-                            <br>brings them together and guides their practice. Each is absolutely 
-                            <br>dedicated to conducting their own research, forming new studies, and 
-                            <br>executing their own clinical trials. The group of practitioners at IHM 
-                            <br>is completely unique in this respect, and results in the absolute 
-                            <br>best results, progress and care for our patients.</p>
-                        <a href="./page-about.php" class="cta">Learn More</a>
+                            <br>wide variety of medical fields and specialties, a common 
+                            <br>vision brings them together and guides their practice. 
+                            <br>Each is absolutely dedicated to conducting their own 
+                            <br>research, forming new studies, and executing their own 
+                            <br>clinical trials. The group of practitioners at IHM is 
+                            <br>completely unique in this respect, and results in the 
+                            <br>absolute best results, progress and care for our patients.</p>
+                        </div>
+                        <div class="break"></div>
+                        <a href="./page-about.php" class="cta justify-self justify-self-center">Learn More</a>
                     </div>
                 </div>
                 <div class="column">

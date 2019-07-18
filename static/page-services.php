@@ -4,15 +4,18 @@ require_once('./header.php');
 
 <section id="hero" class="hero bg-gray">
     <div class="container">
-        <div class="multi-column">
-            <div class="callout">
-                <strong class="stand-out">
-                    PRP 
-                    <span class="symbol">&</span> 
-                    <span class="large">CRYTORICH</span>
-                </strong>
+    <h1 class="page-heading">Gallery</h1>
+        <div class="row">
+            <div class="column align-center">
+                <div class="copy">
+                    <strong class="stand-out">
+                        PRP 
+                        <span class="symbol">&</span> 
+                        <span class="large">CRYTORICH</span>
+                    </strong>
+                </div>
             </div>
-            <div class="media">
+            <div class="column">
                 <img src="./dist/img/hero-feat-img-services.png" alt="" />
             </div>
         </div>
@@ -20,10 +23,10 @@ require_once('./header.php');
 </section>
 <section id="about-us">
     <div class="container">
-        <div class="multi-column">
-            <div class="content">
+        <div class="row">
+            <div class="column">
                 <div class="copy">
-                    <h2 class="heading">PLATELET RICH PLASMA (PRP)<br> THERAPY</h2>
+                    <h2 class="heading justify-self justify-self-center">PLATELET RICH PLASMA (PRP)<br> THERAPY</h2>
                     <p>Platelet Rich Plasma, therapy is a treatment designed to 
                         <br>aid in the healing and regeneration of soft tissues such as 
                         <br>tendons, ligaments and muscles. PRP is the injection of 
@@ -32,9 +35,9 @@ require_once('./header.php');
                         <br>contain growth factors which help stimulate natural healing.</p>
                 </div>
             </div>
-            <div class="content">
+            <div class="column">
                 <div class="copy">
-                    <h2 class="heading">CYTORICH – PRP</h2>
+                    <h2 class="heading justify-self justify-self-center">CYTORICH – PRP</h2>
                     <p>CytoRich-PRP is a new therapeutic product and is similar 
                         <br>to PRP, but with an enriched anti-inflammatory/catabolic 
                         <br>component. CytoRich-PRP comprises an abundant 
@@ -60,63 +63,65 @@ require_once('./header.php');
                 </div>
             </div>
         </div>
-        <div class="multi-column align-vertical-center">
-            <div class="comtemt">
+        <div class="row align-vertical-center">
+            <div class="column justify-left">
                 <img src="./dist/img/feat-img-procedure-package.png" alt="About Us Featured Image" />
             </div>
-            <div class="content">
-                <h2 class="heading stand-out">
+            <div class="column  justify-right">
+                <div class="copy">
+                <h2 class="heading stand-out justify-self justify-self-center">
                     Procedure 
                     <span class="large">package</span>
                 </h2>
+                </div>
             </div>
         </div>
-        <div class="multi-column">
-            <div class="content">
+        <div class="row">
+            <div class="column justify-left">
                 <div class="copy">
-                <h2 class="heading">FAT GRAFT</h2>
+                <h2 class="heading justify-self justity-self-center">FAT GRAFT</h2>
                     <p>Removal of patients’ fat (microlipoinjection) whereby the 
                     <br>physician will reinject the fat into the patient’s muscular 
                     <br>tear. This fat acts as a scaffold where the PRP injection 
                     <br>takes place and is held in place for healing.</p>
                 </div>
             </div>
-            <div class="content">
+            <div class="column justify-right">
                 <div class="copy">
-                    <h2 class="heading">ULTRASOUND</h2>
+                    <h2 class="heading justify-self justify-self-center">ULTRASOUND</h2>
                     <p>Used in assisting physicians with precision injections.</p>
                 </div>
             </div>
         </div>
-        <div class="multi-column">
-            <div class="content">
+        <div class="row">
+            <div class="column justify-left">
                 <div class="copy">
-                    <h2 class="heading">PLATELET RICH PLASMA (PRP) THERAPY</h2>
+                    <h2 class="heading justify-self justify-self-center">PLATELET RICH PLASMA (PRP) THERAPY</h2>
                     <p>Platelet Rich Plasma, used in healing muscle, ligament 
                         <br>and tendon tears. Small and Large kits are used 
                         <br>depending on the size and severity of the injury/tear.</p>
                     </div>
             </div>
-            <div class="content">
+            <div class="column  justify-right">
                 <div class="copy">
-                    <h2 class="heading">VISCO SUPPLEMENTATION</h2>
+                    <h2 class="heading justify-self justify-self-center">VISCO SUPPLEMENTATION</h2>
                     <p>Medical procedure during which lubricating fluid is 
                         <br>injected into a joint to increase pain free mobility and 
                         <br>fluidity of the joint.</p>
                 </div>
             </div>
         </div>
-        <div class="multi-column">
-            <div class="content">
+        <div class="row">
+            <div class="column justify-left">
                 <div class="copy">
-                    <h2 class="heading">CYTORICH</h2>
+                    <h2 class="heading justify-self justify-self-right">CYTORICH</h2>
                     <p>Stage 2 PRP used for the treatment of Osteoarthritic Knee 
                     <br>and Osteopathic hips.</p>
                 </div>
             </div>
-            <div class="content">
+            <div class="column justify-right">
                 <div class="copy">
-                    <h2 class="heading">SHOCKWAVE</h2>
+                    <h2 class="heading justify-self justify-self-right">SHOCKWAVE</h2>
                     <p>Shockwave is an acoustic wave which carries high energy 
                     <br>to painful spots of myoskeletal tissues with subacute, 
                     <br>sub-chronic and chronic conditions. The energy promotes 

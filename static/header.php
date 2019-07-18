@@ -2,7 +2,7 @@
     $path = explode("?",$_SERVER['REQUEST_URI']);
     $filename = basename($path[0]);
     $page_class = explode(".", $filename )[0];
-    $theme_color = array( "page-about" => 0, "page-home" => 1, "page-services" => 1, "page-contact"=> 0, "page-gallery"=> 1);
+    $theme_color = array( "page-about" => 0, "page-home" => 1, "page-services" => 1, "page-contact"=> 0, "page-gallery"=> 1, "page-doctors"=> 0);
     $dark_header = ( $theme_color[$page_class] == 0 ) ? true : false;
     //echo $theme_color[$page_class];
     //print_r( $_SERVER ); 

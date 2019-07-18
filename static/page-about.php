@@ -5,18 +5,22 @@ require_once('./header.php');
 <section id="hero" class="hero bg-black">
     <div class="container">
         <h1 class="page-heading">About</h1>
-        <div class="multi-column">
-            <div class="callout">
-                <strong class="stand-out">
-                    About Us
-                </strong>
-                <strong class="stand-out large">
-                    From Innovation<br>
-                    comes regeneration
-                </strong>
+        <div class="row">
+            <div class="column align-center">
+                <div class="copy justify-center">
+                    <strong class="stand-out">
+                        About Us
+                    </strong>
+                    <strong class="stand-out large">
+                        From Innovation<br>
+                        comes regeneration
+                    </strong>
+                </div>
             </div>
-            <div class="media">
-                <img src="./dist/img/hero-img-about.png" width="510" alt="About Us Featured Image" />
+            <div class="column">
+                <picture>
+                    <img src="./dist/img/hero-img-about.png" width="510" alt="About Us Featured Image" />
+                </picture>
             </div>
         </div>
     </div>
@@ -24,9 +28,10 @@ require_once('./header.php');
 <section id="our-vision" class="bg-gray">
     <div class="container">
         <div class="multi-column order-invert-desktop align-vertical-center">
-            <div class="content">
+            <div class="content justify-center">
                 <div class="copy">
-                    <h2 class="heading">Our Vision</h2>
+                    <h2 class="heading justify-self justify-self-center">Our Vision</h2>
+                    <div class="break"></div>
                     <p>The Institute of Human Mechanics was founded by Dr.
                         <br> Anthony Galea, a visionary physician who believes 
                         <br>in administering the best solutions possible for his patients, 
@@ -51,11 +56,14 @@ require_once('./header.php');
 <section id="about-us">
     <div class="container">
         <div class="multi-column">
-            <div class="content">
+            <div class="column">
+            <div class="copy">
             <h2 class="stand-out">UNDERSTANDING  PRP THERAPY & CYPORICH PRP</h2>
             <a href="./page-about.php" class="cta">Learn More</a>
             </div>
-            <div class="content">
+            </div>
+            <div class="column">
+            <div class="copy">
                 <h2 class="heading">PLATELET RICH PLASMA (PRP) THERAPY</h2>
                 <p>Platelet Rich Plasma, therapy is a treatment
                     <br> designed to aid in the healing and regeneration of 
@@ -65,33 +73,36 @@ require_once('./header.php');
                         <br>tendon, ligament or muscle tear. The platelets 
                         <br>contain growth factors which help stimulate natural 
                         <br>healing.</p>
+                        </div>
             </div>
-            <div class="content">
-                <h2 class="heading">CYTORICH - PRP</h2>
-                <p>CytoRich-PRP is a new therapeutic product and is 
-                    <br>similar to PRP, but with an enriched anti-
-                    <br>inflammatory/catabolic component. CytoRich-PRP 
-                    <br>comprises an abundant concentration of anti-
-                    <br>inflammatory and regenerative agents that are 
-                    <br>intended to treat damaged and/or injured 
-                    <br>connective tissue, and chronic conditions such as 
-                    <br>tendonitis, muscle tears, and degenerative joint 
-                    <br>conditions such as osteoarthritis. </p>
-                <p>Unlike PRP, CytoRich-PRP has two components: a 
-                    <br>regenerative and an anti-inflammatory component. 
-                    <br>The regenerative component is similar to PRP, 
-                    <br>while the anti-inflammatory component is enriched 
-                    <br>with anti-inflammatory, anti-catabolic and 
-                    <br>regenerative proteins that increase CytoRich-PRP 
-                    <br>therapeutic potential comparing to PRP treatment.</p>
-                <p>CytoRich is an efficient and safe product for 
-                    <br>Osterarthritis treatment since it has been reported 
-                    <br>as a source of human bioactive molecules playing a 
-                    <br>key role in the fundamental processes of 
-                    <br>stimulating tissue reapir and regenerations. Health 
-                    <br>Canada Approval has been received for Indications 
-                    <br>for the treatment of Osteoarthritic Knee and 
-                    <br>Osteopathic Hip.</p>
+            <div class="column">
+                <div class="copy">
+                    <h2 class="heading">CYTORICH - PRP</h2>
+                    <p>CytoRich-PRP is a new therapeutic product and is 
+                        <br>similar to PRP, but with an enriched anti-
+                        <br>inflammatory/catabolic component. CytoRich-PRP 
+                        <br>comprises an abundant concentration of anti-
+                        <br>inflammatory and regenerative agents that are 
+                        <br>intended to treat damaged and/or injured 
+                        <br>connective tissue, and chronic conditions such as 
+                        <br>tendonitis, muscle tears, and degenerative joint 
+                        <br>conditions such as osteoarthritis. </p>
+                    <p>Unlike PRP, CytoRich-PRP has two components: a 
+                        <br>regenerative and an anti-inflammatory component. 
+                        <br>The regenerative component is similar to PRP, 
+                        <br>while the anti-inflammatory component is enriched 
+                        <br>with anti-inflammatory, anti-catabolic and 
+                        <br>regenerative proteins that increase CytoRich-PRP 
+                        <br>therapeutic potential comparing to PRP treatment.</p>
+                    <p>CytoRich is an efficient and safe product for 
+                        <br>Osterarthritis treatment since it has been reported 
+                        <br>as a source of human bioactive molecules playing a 
+                        <br>key role in the fundamental processes of 
+                        <br>stimulating tissue reapir and regenerations. Health 
+                        <br>Canada Approval has been received for Indications 
+                        <br>for the treatment of Osteoarthritic Knee and 
+                        <br>Osteopathic Hip.</p>
+                </div>
             </div>
         </div>
     </div>

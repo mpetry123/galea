@@ -24,6 +24,12 @@ section {
   @media screen and (min-width: 64rem) {
     section {
       padding: 6.25rem 0; } }
+  section img {
+    margin: 1rem 0; }
+
+.heading {
+  font-size: "Roboto", "Proxima Nova", "Raleway", "Arial", sans;
+  text-transform: uppercase; }
 
 .stand-out {
   display: block;
@@ -92,7 +98,7 @@ br {
   display: none; }
 
 header {
-  position: fixed;
+  position: relative;
   z-index: 9;
   background-color: rgba(100, 100, 100, 0.5); }
   @media screen and (min-width: 64rem) {
@@ -221,22 +227,44 @@ section .row, section .multi-column {
       order: 1; } }
   section .row.align-vertical-center, section .multi-column.align-vertical-center {
     align-items: center; }
-  section .row > div, section .multi-column > div {
-    border: 1px solid red;
-    flex: 0 1 100%;
-    margin: 0 2.5rem; }
-    @media screen and (min-width: 64rem) {
-      section .row > div, section .multi-column > div {
-        flex: 1 1 0; } }
   section .row .column, section .row .content, section .multi-column .column, section .multi-column .content {
     display: flex;
-    flex-flow: column wrap;
-    align-items: center; }
-  section .row .heading, section .multi-column .heading {
-    text-align: center; }
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 0 1 100%; }
+    @media screen and (min-width: 64rem) {
+      section .row .column, section .row .content, section .multi-column .column, section .multi-column .content {
+        margin: 0 2.5rem;
+        flex: 1 1 0; } }
   section .row .copy, section .multi-column .copy {
-    display: inline-block;
-    margin: 0 auto; }
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    max-width: 26.25rem; }
+    section .row .copy > *.break, section .multi-column .copy > *.break {
+      flex-basis: 100%;
+      height: 0; }
+    section .row .copy > *.justify-self, section .multi-column .copy > *.justify-self {
+      flex-basis: auto;
+      margin-left: auto;
+      margin-right: auto; }
+      section .row .copy > *.justify-self-left, section .multi-column .copy > *.justify-self-left {
+        justify-self: left; }
+      section .row .copy > *.justify-self-center, section .multi-column .copy > *.justify-self-center {
+        justify-self: center; }
+  section .row .heading.justify-self-center, section .multi-column .heading.justify-self-center {
+    text-align: center; }
+  section .row .column, section .row .copy, section .multi-column .column, section .multi-column .copy {
+    outline: 1px solid red; }
+    section .row .column.justify-left, section .row .copy.justify-left, section .multi-column .column.justify-left, section .multi-column .copy.justify-left {
+      justify-content: flex-start; }
+    section .row .column.justify-center, section .row .copy.justify-center, section .multi-column .column.justify-center, section .multi-column .copy.justify-center {
+      justify-content: center; }
+    section .row .column.justify-right, section .row .copy.justify-right, section .multi-column .column.justify-right, section .multi-column .copy.justify-right {
+      justify-content: flex-end; }
+    section .row .column.align-center, section .row .copy.align-center, section .multi-column .column.align-center, section .multi-column .copy.align-center {
+      align-items: center; }
 
 nav {
   background-color: rgba(0, 0, 0, 0.5);
@@ -342,12 +370,15 @@ section.hero {
   section.hero.bg-image {
     padding: initial; }
     section.hero.bg-image .container {
-      min-height: 54vw;
+      min-height: 100vw;
       position: relative;
       display: flex;
       flex-flow: column wrap;
       align-content: center;
       justify-content: center; }
+      @media screen and (min-width: 64rem) {
+        section.hero.bg-image .container {
+          min-height: 54vw; } }
     section.hero.bg-image .background-image {
       position: absolute;
       top: 0;
@@ -359,10 +390,7 @@ section.hero {
   section.hero .multi-column {
     align-items: center; }
   section.hero .callout {
-    /*display: flex;
-        flex-flow: column wrap;
-        align-items: center;
-        text-align: center;*/ }
+    text-align: center; }
     section.hero .callout > * {
       margin-bottom: 2rem; }
       section.hero .callout > *:last-child {
@@ -375,16 +403,6 @@ section.hero {
     font-family: "Raleway";
     line-height: 1.125;
     font-weight: 600; }
-
-section#the-doctors {
-  padding: 0; }
-  section#the-doctors .content-text {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: flex-start; }
-  section#the-doctors .content-media {
-    margin: 0 calc(-1 * 1.5rem); }
 
 .page-gallery section#hero .copy {
   max-width: 19rem; }
