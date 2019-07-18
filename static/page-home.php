@@ -37,7 +37,7 @@ require_once('./header.php');
                 </div>
                 <div class="column">
                     <picture>
-                        <img src="./dist/img/feat-img-about-us-cropped.png" alt="About Us Featured Image" />
+                        <img src="./dist/img/feat-img-about-us.png" alt="About Us Featured Image" />
                     </picture>
                 </div>
             </div>
@@ -79,7 +79,7 @@ require_once('./header.php');
     <section id="the-doctors" class="bg-black">
         <div class="container">
             <div class="row">
-                <div class="column">
+                <div class="column align-center">
                     <div class="copy">
                         <h2 class="heading justify-self justify-self-center">The Doctors</h2>
                         <div class="break"></div>

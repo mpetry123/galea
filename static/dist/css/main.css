@@ -97,6 +97,9 @@ br {
 .header-dark .logo.logo-dark {
   display: none; }
 
+.location-and-contact-info > * {
+  margin: 0 auto; }
+
 header {
   position: relative;
   z-index: 9;
@@ -216,13 +219,13 @@ section .row, section .multi-column {
   display: flex;
   flex-flow: row wrap;
   width: 100%; }
-  @media screen and (min-width: 64rem) {
+  @media screen and (min-width: 48rem) {
     section .row, section .multi-column {
       width: auto; } }
-  @media screen and (min-width: 64rem) {
+  @media screen and (min-width: 48rem) {
     section .row.order-invert-desktop > div:first-child, section .multi-column.order-invert-desktop > div:first-child {
       order: 2; } }
-  @media screen and (min-width: 64rem) {
+  @media screen and (min-width: 48rem) {
     section .row.order-invert-desktop > div:last-child, section .multi-column.order-invert-desktop > div:last-child {
       order: 1; } }
   section .row.align-vertical-center, section .multi-column.align-vertical-center {
@@ -233,7 +236,7 @@ section .row, section .multi-column {
     justify-content: center;
     align-items: flex-start;
     flex: 0 1 100%; }
-    @media screen and (min-width: 64rem) {
+    @media screen and (min-width: 48rem) {
       section .row .column, section .row .content, section .multi-column .column, section .multi-column .content {
         margin: 0 2.5rem;
         flex: 1 1 0; } }
@@ -255,16 +258,15 @@ section .row, section .multi-column {
         justify-self: center; }
   section .row .heading.justify-self-center, section .multi-column .heading.justify-self-center {
     text-align: center; }
-  section .row .column, section .row .copy, section .multi-column .column, section .multi-column .copy {
-    outline: 1px solid red; }
-    section .row .column.justify-left, section .row .copy.justify-left, section .multi-column .column.justify-left, section .multi-column .copy.justify-left {
-      justify-content: flex-start; }
-    section .row .column.justify-center, section .row .copy.justify-center, section .multi-column .column.justify-center, section .multi-column .copy.justify-center {
-      justify-content: center; }
-    section .row .column.justify-right, section .row .copy.justify-right, section .multi-column .column.justify-right, section .multi-column .copy.justify-right {
-      justify-content: flex-end; }
-    section .row .column.align-center, section .row .copy.align-center, section .multi-column .column.align-center, section .multi-column .copy.align-center {
-      align-items: center; }
+  section .row .column.justify-left, section .row .copy.justify-left, section .multi-column .column.justify-left, section .multi-column .copy.justify-left {
+    justify-content: flex-start; }
+  section .row .column.justify-center, section .row .copy.justify-center, section .multi-column .column.justify-center, section .multi-column .copy.justify-center {
+    justify-content: center; }
+  section .row .column.justify-right, section .row .copy.justify-right, section .multi-column .column.justify-right, section .multi-column .copy.justify-right {
+    justify-content: flex-end; }
+  section .row .column.align-center, section .row .copy.align-center, section .multi-column .column.align-center, section .multi-column .copy.align-center {
+    align-items: center;
+    align-content: center; }
 
 nav {
   background-color: rgba(0, 0, 0, 0.5);

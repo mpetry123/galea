@@ -123,3 +123,8 @@ br {
         display: none;
     }
 }
+.location-and-contact-info {
+    > * {
+        margin: 0 auto;
+    }
+}
