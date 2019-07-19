@@ -43,6 +43,11 @@ section {
   text-transform: uppercase;
   font-size: 2.25rem;
   line-height: 1; }
+  .stand-out > * {
+    display: block;
+    margin-bottom: 2rem; }
+    .stand-out > *:last-child {
+      margin-bottom: 0; }
   .stand-out.large, .stand-out.symbol, .stand-out > .large, .stand-out > .symbol {
     font-weight: 600;
     display: block; }
@@ -100,20 +105,17 @@ br {
 .header-dark .logo.logo-dark {
   display: none; }
 
-.location-and-contact-info {
-  padding: 15% 10%; }
-  .location-and-contact-info > * {
-    margin: 0 auto; }
-
 .text-align-center {
   text-align: center; }
 
 header {
   position: relative;
   z-index: 9;
-  background-color: rgba(100, 100, 100, 0.5); }
+  background-color: #F4F4F4;
+  padding: 0.5rem 0; }
   @media screen and (min-width: 64rem) {
     header {
+      padding: 0;
       position: absolute;
       background-color: transparent; } }
   header .container {
@@ -225,6 +227,86 @@ footer {
         footer .notes a {
           margin: 0 0.25rem 0 0; } }
 
+form input, form label, form .selectric .label {
+  display: block;
+  color: #000000;
+  font-size: 0.875rem;
+  height: 2.625rem;
+  line-height: 2.625rem;
+  margin: 0;
+  font-weight: 500; }
+
+form input, form textarea {
+  position: relative;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 100%;
+  position: relative; }
+
+form input {
+  border-bottom: 1px solid #000000; }
+  form input[type=submit] {
+    display: inline-block;
+    margin: 0 auto;
+    width: auto;
+    padding: 0 3rem;
+    line-height: 1; }
+
+form ul {
+  list-style: none; }
+
+form textarea {
+  border: 1px solid #000000;
+  color: #000000;
+  font-size: 0.875rem;
+  line-height: 2.625rem;
+  padding-left: 1rem;
+  height: 12rem; }
+
+form .validation_error {
+  display: none; }
+
+form .validation_message {
+  position: absolute;
+  font-size: 0.85rem;
+  color: #000000;
+  font-weight: 600; }
+
+form .gform_footer {
+  text-align: center;
+  position: relative; }
+
+form .gform_ajax_spinner {
+  position: absolute;
+  top: calc(100% + 1rem);
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+form .gform_validation_container {
+  display: none; }
+
+form .gform_title {
+  display: none; }
+
+form .gfield {
+  position: relative;
+  margin-bottom: 1rem; }
+  form .gfield label {
+    position: absolute; }
+  form .gfield .hidden_sub_label {
+    display: none; }
+  form .gfield:last-child {
+    margin: 4rem 0; }
+
+form .field-message label {
+  left: 1rem; }
+
+form .message-field label {
+  text-transform: lowercase;
+  margin: 0 1rem 0 1rem; }
+
 section .row, section .multi-column {
   display: flex;
   flex-flow: row wrap;
@@ -252,44 +334,39 @@ section .row, section .multi-column {
         flex: 1 1 0; } }
 
 section .copy {
-  display: flex;
-  flex-flow: row wrap;
-  width: 100%; }
+  width: 100%;
+  text-align: left; }
   @media screen and (min-width: 48rem) {
     section .copy {
-      max-width: 28rem; } }
-  section .copy > *.break {
-    flex-basis: 100%;
-    height: 0; }
-  section .copy > *.justify-self {
-    flex-basis: auto;
-    margin-left: auto;
-    margin-right: auto; }
-    section .copy > *.justify-self-left {
-      justify-self: left; }
-    section .copy > *.justify-self-center {
-      justify-self: center; }
-
-section .heading.justify-self-center {
-  text-align: center; }
+      max-width: 30rem; } }
+  @media screen and (min-width: 48rem) {
+    section .copy-wide {
+      max-width: 40rem; } }
+  section .copy.centered {
+    text-align: center; }
+    section .copy.centered p {
+      text-align: left; }
+  section .copy.align-center {
+    margin: 0 auto;
+    text-align: center; }
 
 @media screen and (min-width: 48rem) {
-  section .container.justify-left, section .column.justify-left, section .copy.justify-left {
+  section .container.justify-left, section .column.justify-left {
     justify-content: flex-start; } }
 
-section .container.justify-center, section .column.justify-center, section .copy.justify-center {
+section .container.justify-center, section .column.justify-center {
   justify-content: center; }
 
 @media screen and (min-width: 48rem) {
-  section .container.justify-right, section .column.justify-right, section .copy.justify-right {
+  section .container.justify-right, section .column.justify-right {
     justify-content: flex-end; } }
 
-section .container.align-center, section .column.align-center, section .copy.align-center {
+section .container.align-center, section .column.align-center {
   align-items: center;
   align-content: center; }
 
 nav {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #707070;
   font-family: "Proxima Nova", "Roboto", "Raleway", "Arial", sans;
   font-weight: 600; }
   @media screen and (min-width: 64rem) {
@@ -401,9 +478,9 @@ nav {
         height: 1rem;
         width: 1rem; } }
 
-@media screen and (min-width: 48rem) {
+@media screen and (min-width: 64rem) {
   section.hero {
-    padding: 11.25rem 0 7.5rem; } }
+    padding: 11.25rem 0 6.25rem; } }
 
 section.hero.bg-image {
   padding: initial; }
@@ -470,11 +547,76 @@ section.hero .stand-out {
       height: 100%;
       max-height: 45rem; } }
 
+.page-about #understanding-prp .cta {
+  margin-bottom: 1rem; }
+
 .page-about #understanding-prp .column {
   margin: 0 2.5%; }
+  @media screen and (max-width: 63rem) {
+    .page-about #understanding-prp .column {
+      flex: 1 1 100%;
+      margin: 0; } }
+  @media screen and (min-width: 64rem) {
+    .page-about #understanding-prp .column {
+      padding-top: 5.5rem; } }
   .page-about #understanding-prp .column:first-child {
+    padding-top: 0;
     margin-left: 0; }
   .page-about #understanding-prp .column:last-child {
     margin-right: 0; }
+
+@media screen and (max-width: 63rem) {
+  .page-about #understanding-prp .copy {
+    max-width: 100%; } }
+
+.page-services #services .stand-out .large {
+  font-size: 3.125rem; }
+
+.page-gallery #gallery .heading {
+  color: #FFFFFF; }
+
+.page-contact #hero img {
+  margin: 0; }
+
+.page-contact #hero .stand-out {
+  margin: 0; }
+
+@media screen and (min-width: 48rem) {
+  .page-contact #hero .column:last-child {
+    margin: 0; } }
+
+.page-contact .location-and-contact-info {
+  margin: 0 auto;
+  width: 100%;
+  resize: both;
+  overflow: hidden;
+  max-width: 24rem;
+  min-height: 25rem; }
+  .page-contact .location-and-contact-info address {
+    margin-top: 12rem;
+    font-weight: 600;
+    font-style: normal;
+    color: #000000;
+    text-align: center; }
+  .page-contact .location-and-contact-info .contact-data {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .page-contact .location-and-contact-info .contact-data a {
+      color: #000000;
+      text-decoration: none; }
+    .page-contact .location-and-contact-info .contact-data dt, .page-contact .location-and-contact-info .contact-data dd {
+      margin: 0;
+      width: calc(50% - 2rem); }
+    .page-contact .location-and-contact-info .contact-data dt {
+      font-family: "Roboto", "Proxima Nova", "Raleway", "Arial", sans;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: right;
+      padding-right: 1rem; }
+    .page-contact .location-and-contact-info .contact-data dd {
+      font-family: "Raleway", "Proxima Nova", "Roboto", "Arial", sans;
+      text-align: left;
+      padding-left: 1rem; }
 
 /*# sourceMappingURL=main.css.map */

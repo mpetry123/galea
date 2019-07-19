@@ -12,13 +12,11 @@ require_once('./header.php');
                 </picture>
             </div>
             <div class="column align-center">
-                <div class="copy justify-center">
+                <div class="copy centered">
                     <strong class="stand-out">
-                        About Us
-                    </strong>
-                    <strong class="stand-out large">
-                        From Innovation<br>
-                        comes regeneration
+                        <span>About Us</span>
+                        <span class="large">From Innovation<br>
+                        comes regeneration</span>
                     </strong>
                 </div>
             </div>
@@ -29,9 +27,9 @@ require_once('./header.php');
     <div class="container">
         <div class="multi-column order-invert-desktop align-vertical-center">
             <div class="content justify-center">
-                <div class="copy">
-                    <h2 class="heading justify-self justify-self-center">Our Vision</h2>
-                    <div class="break"></div>
+                <div class="copy centered">
+                    <h2 class="heading">Our Vision</h2>
+                    
                     <p>The Institute of Human Mechanics was founded by Dr.
                         <br> Anthony Galea, a visionary physician who believes 
                         <br>in administering the best solutions possible for his patients, 
@@ -59,21 +57,21 @@ require_once('./header.php');
             <div class="column">
             <div class="copy">
             <h2 class="stand-out">UNDERSTANDING  PRP THERAPY & CYPORICH PRP</h2>
-            <a href="./page-about.php" class="cta">Learn More</a>
+            <a href="./page-about.php" class="cta">All Services</a>
             </div>
             </div>
             <div class="column">
-            <div class="copy">
-                <h2 class="heading">PLATELET RICH PLASMA (PRP) THERAPY</h2>
-                <p>Platelet Rich Plasma, therapy is a treatment
+                <div class="copy">
+                    <h2 class="heading">PLATELET RICH PLASMA (PRP) THERAPY</h2>
+                    <p>Platelet Rich Plasma, therapy is a treatment
                     <br> designed to aid in the healing and regeneration of 
                     <br>soft tissues such as tendons, ligaments and 
-                        <br>muscles. PRP is the injection of the patients own 
-                        <br>platelets, in high concentration into an injured 
-                        <br>tendon, ligament or muscle tear. The platelets 
-                        <br>contain growth factors which help stimulate natural 
-                        <br>healing.</p>
-                        </div>
+                    <br>muscles. PRP is the injection of the patients own 
+                    <br>platelets, in high concentration into an injured 
+                    <br>tendon, ligament or muscle tear. The platelets 
+                    <br>contain growth factors which help stimulate natural 
+                    <br>healing.</p>
+                </div>
             </div>
             <div class="column">
                 <div class="copy">

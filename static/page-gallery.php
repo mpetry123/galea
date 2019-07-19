@@ -10,9 +10,10 @@ require_once('./header.php');
                 <img src="./dist/img/hero-feat-img-gallery.png" alt="About Us Featured Image" />
             </div>
             <div class="column align-center">
-                <div class="copy">
-                    <h2 class="heading justify-self-center justify-self">Gallery Overview</h2>
-                    <p>Our clinic is not just a space – it is the physical embodiment of our philosophy as doctors and practitioners, and a sanctuary for our patients. We hope you find it comfortable, exciting, modernly rejuvenating,</p>
+                    <div class="copy centered">
+                        <h2 class="heading">Gallery Overview</h2>
+                        <p>Our clinic is not just a space – it is the physical embodiment of our philosophy as doctors and practitioners, and a sanctuary for our patients. We hope you find it comfortable, exciting, modernly rejuvenating,</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -27,6 +28,12 @@ require_once('./header.php');
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="bg-image" style="background: url('./dist/img/img-slide-placeholder.jpg');"></div>
+                            <div class="copy">
+                                <h3 class="heading">Image Title</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                                <br>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+                                <br>ad minim veniam, quis nostrud exercitation.</p>
+                            </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="bg-image" style="background: url('./dist/img/img-slide-placeholder.jpg');"></div>
@@ -35,8 +42,6 @@ require_once('./header.php');
                             <div class="bg-image" style="background: url('./dist/img/img-slide-placeholder.jpg');"></div>
                         </div>
                     </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
                 </div>
                 <!-- Add Arrows -->
                 <div class="swiper-button-next"></div>

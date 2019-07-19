@@ -1,6 +1,6 @@
 section.hero {
-    @media screen and (min-width: $tablet_sm) {
-        padding: 11.25rem 0 7.5rem;
+    @media screen and (min-width: $tablet_lg) {
+        padding: 11.25rem 0 6.25rem;
     }
     &.bg-image {
         padding: initial;

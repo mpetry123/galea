@@ -21,14 +21,103 @@
 }
 .page-about {
     #understanding-prp {
+        .cta {
+            margin-bottom: 1rem;
+        }
         .column {
             margin: 0 2.5%;
+            @media screen and (max-width: $tablet_lg - 1) { 
+                flex: 1 1 100%;
+                margin: 0;
+            }
+            @media screen and (min-width: $tablet_lg) {
+                padding-top: 5.5rem;
+            }
             &:first-child {
+                padding-top: 0;
                 margin-left: 0;
             }
             &:last-child {
                 margin-right: 0;
             }
         }
+        .copy {
+            @media screen and (max-width: $tablet_lg - 1) {
+                max-width: 100%;
+            }
+        }
+    }
+}
+.page-services {
+    #services {
+        .stand-out {
+            .large {
+                font-size: 3.125rem;
+            }
+        }
+    }
+}
+.page-gallery {
+    #gallery {
+        .heading {
+            color: $white;
+        }
+    }
+}
+.page-contact {
+    #hero {
+        img {
+            margin: 0;
+        }
+        .stand-out {
+            margin: 0;
+        }
+        .column {
+            &:last-child {
+                @media screen and (min-width: $tablet_sm) {
+                    margin: 0;
+                }
+            }
+        }
+    }
+    .location-and-contact-info {
+        margin: 0 auto;
+        width: 100%;
+        resize: both;
+        overflow: hidden;
+        max-width: 24rem;
+        min-height: 25rem;
+        address {
+            margin-top: 12rem;
+            font-weight: $semibold;
+            font-style: normal;
+            color: $black;
+            text-align: center;
+        }
+        .contact-data {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            a {
+                color: $black;
+                text-decoration: none;
+            }
+            dt, dd {
+                margin: 0;
+                width: calc(50% - 2rem);
+            }
+            dt {
+                font-family: $roboto;
+                font-weight: bold;
+                text-transform: uppercase;
+                text-align: right;
+                padding-right: 1rem;
+            }
+            dd {
+                font-family: $raleway;
+                text-align: left;
+                padding-left: 1rem;
+            }
+        }       
     }
 }

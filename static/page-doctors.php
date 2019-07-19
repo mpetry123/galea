@@ -9,11 +9,10 @@ require_once('./header.php');
                 <img src="./dist/img/hero-feat-img-doctors.png" alt="Featured Image" />
             </div>
             <div class="column align-center">
-                <div class="copy justify-center">
+                <div class="copy centered">
                     <strong class="stand-out">
-                        Sports 
-                        <br>
-                        Medicine
+                        <span>Sports</span>
+                        <span class="large">Medicine</span>
                     </strong>
                 </div>    
             </div>
@@ -24,13 +23,14 @@ require_once('./header.php');
     <div class="container">
         <div class="row order-invert-desktop">
             <div class="column align-center justify-right">
-                <div class="copy justify-center">
+                <div class="copy centered">
                 <h2 class="heading">DR ANTHONY GALEA</h2>
-                <div class="break"></div>
+                
                 <div class="position-and-credentials">
                     <abbr title="Bachelor of Science.">B. Sc.</abbr>
                     <abbr title="Doctor of Medicine.">M.D</abbr>
                     <abbr title="Diploma in Safety Management">Dip.S.M</abbr>
+                    <br>
                     <span>Medical Doctor</span>
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -49,14 +49,14 @@ require_once('./header.php');
         </div>
         <div class="row">
             <div class="column align-center justify-left">
-                <div class="copy">
+                <div class="copy centered">
                 <h2 class="heading">DR SEAN KINGS</h2>
-                <div class="break"></div>
                 <div class="position-and-credentials">
                     <abbr title="Bachelor of Science.">B. Sc.</abbr>
                     <abbr title="Doctor of Medicine">M.D</abbr>
                     <abbr title="Doctor of Chiropractic Medicine">D.C</abbr>
                     <abbr title="College of Family Physicians Canada">CCFP</abbr>
+                    <br>
                     <span>Medical Doctor</span>
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -70,7 +70,7 @@ require_once('./header.php');
                 </div>
             </div>
             <div class="column justify-right">
-                <img src="./dist/img/feat-img-dr-1.png" alt="Featured Image" />
+                <img src="./dist/img/feat-img-dr-2.png" alt="Featured Image" />
             </div>
         </div>
     </div>
@@ -79,16 +79,15 @@ require_once('./header.php');
     <div class="container">
         <div class="row  order-invert-desktop">
             <div class="column align-center">
-                <div class="copy justify-center">
-                <h2 class="heading stand-out">
-                    Family 
-                    <br>
-                    Medicine
+                <div class="copy centered">
+                <h2 class="stand-out">
+                    <span>Family</span>
+                    <span class="large">Medicine</span>
                 </h2>
                 </div>
             </div>
             <div class="column">
-                <img src="./dist/img/hero-feat-img-doctors.png" alt="Featured Image" />
+                <img src="./dist/img/feat-img-family-medicine.png" alt="Featured Image" />
             </div>
         </div>
     </div>
@@ -99,14 +98,13 @@ require_once('./header.php');
         <div class="row">
         
         <div class="column  justify-left">
-            <div class="copy">
+            <div class="copy centered">
                 <h2 class="heading">DR ADEEL KHAN</h2>
-                <div class="break"></div>
                 <div class="position-and-credentials">
                     <abbr title="Bachelor of Science.">B. Sc.</abbr>
                     <abbr title="Doctor of Medicine.">M.D</abbr>
                     <abbr title="Diploma in Safety Management">Dip.S.M</abbr>
-                    <div class="break"></div>
+                    
                     <div>Medical Doctor</div>
                 </div>
                 <p>Dr. Adeel Khan is a medical doctor, and a certified personal trainer. He holds a focussed practice designation in Sport Medicine from the Ontario Medical Association. As a Sports Physician he specializes in weight training injuries, regenerative medicine, and holistic musculoskeletal medicine. He strives to apply the most effective and advanced treatments available to assist his patients in achieving their own level of optimal performance. He has treated a wide range of patients from celebrities,  professional athletes and weekend warriors. Dr. Khan also teaches medical students at McMaster University as an Assistant Clinical Professor. <p>
@@ -114,9 +112,9 @@ require_once('./header.php');
             </div>
         </div>
             <div class="column justify-right">
-                <div class="copy">
+                <div class="copy centered">
                     <h2 class="heading">DR JEFFREY BACHER</h2>
-                    <div class="break"></div>
+                    
                     <div class="position-and-credentials">
                         <div>
                         <abbr title="Bachelor of Science.">B. Sc.</abbr>
@@ -149,14 +147,13 @@ require_once('./header.php');
         </div>
         <div class="row">
             <div class="column justify-left align-center">
-                <div class="copy">
-                    <div class="justify-self-center justify-self">
+                <div class="copy centered">
+                    
                     <h2 class="heading">DR IRINA BROKHMAN</h2>
-                    <div class="break"></div>
+                    
                     <div class="position-and-credentials">
                         <div><abbr title="Doctor of Philosophy">Ph. D</abbr></div>
                         <div>Vice President Research and Development</div>
-                    </div>
                     </div>
                     <p>
                     Dr Irina Brokhman completed her Master degree in 
@@ -173,7 +170,7 @@ require_once('./header.php');
                 </div>
             </div>
             <div class="column justify-right">
-                <img src="./dist/img/feat-img-dr-1.png" alt="Featured Image" />
+                <img src="./dist/img/feat-img-dr-3.png" alt="Featured Image" />
             </div>
         </div>
     </div>

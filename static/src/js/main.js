@@ -2,7 +2,7 @@ var jQuery = null;
 
 (function ($, document, window, undefined) {
 
-    var swiper = new Swiper('.swiper-container', {
+    const swiper = new Swiper('.swiper-container', {
         loop: true,
         navigation: {
             nextEl: '.swiper-button-next',
@@ -13,6 +13,30 @@ var jQuery = null;
         }
         
       });
+
+      
+    const Form = function(){
+        
+      const labelHandler = function(e) {
+
+        const parent = e.target.closest(".gfield");
+	
+        //console.log(e.type);
+        //console.dir(parent);
+        
+
+        if(e.type == "focusin") 
+            parent.querySelector(".gfield_label").style.display = "none";
+            //$parent.css("outline", "1px solid red");
+        else if( e.target.value == 0 )
+            parent.querySelector(".gfield_label").style.display = "block";
+            //$parent.css("outline", "1px solid transparent");	
+      }
+
+      return { labelHandler }
+	
+    }();
+    
 
 
     const Globals = function() {
@@ -38,14 +62,23 @@ var jQuery = null;
     if ( !window.Galea ) window.Galea = {};
       window.Galea.Globals = Globals;
         
-
+    /* START DOMContentLoaded Event Listeners */
     document.addEventListener("DOMContentLoaded", function() {
+
       document.querySelectorAll("[data-js]").forEach(function(elem){
         elem.addEventListener("click", function() {
           var targetFn = window.Galea.Globals[elem.dataset.js];
             (typeof( targetFn ) == "function" && targetFn() )
         })
-      })
-    })
+      });
+
+      document.querySelectorAll(".gfield input, .gfield textarea").forEach(function(elem){
+        elem.addEventListener("focusin", Form.labelHandler);
+        elem.addEventListener("focusout", Form.labelHandler);
+      });
+
+      
+
+    }); /* END DOMContentLoaded */
     
 }(jQuery, document, window));

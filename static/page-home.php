@@ -4,6 +4,7 @@ require_once('./header.php');
     <section id="hero" class="hero bg-image">
         <div class="background-image" style="background-image: url('./dist/img/hero-img-page-home.jpg');"></div>
         <div class="container">
+            <h1 class="page-heading">Home</h1>
             <div class="callout">
                 <strong class="stand-out">The Future of you</strong>
                 <a href="./page-about.php" class="cta">Contact Us</a>
@@ -15,23 +16,21 @@ require_once('./header.php');
             <div class="row">
                 <div class="column justify-left">
                     <div class="copy">
-                        <h2 class="heading align-left">About Us</h2>
-                        <div class="break"></div>
+                        <h2 class="heading">About Us</h2>
                         <p>Visualize your body, and internalize its form. Your 
-                            <br>bones are not just bones. They are immaculate 
-                            <br>pieces of biological construction designed to move, 
-                            <br>flex and adapt at every joint.</p>
+                        <br>bones are not just bones. They are immaculate 
+                        <br>pieces of biological construction designed to move, 
+                        <br>flex and adapt at every joint.</p>
                         <p>Your muscles are not just muscles. They are an 
-                            <br>intricate system of power and force that react at 
-                            <br>light speed so we can push, pull, lift and go further.</p>
+                        <br>intricate system of power and force that react at 
+                        <br>light speed so we can push, pull, lift and go further.</p>
                         <p>Your mind is not just your mind. It is the command 
-                            <br>centre for every signal you send, every action you 
-                            <br>complete, and every thought you think.</p>
+                        <br>centre for every signal you send, every action you 
+                        <br>complete, and every thought you think.</p>
                         <p>And your body? It’s not just your body. It’s your 
-                            <br>machine.</p>
+                        <br>machine.</p>
                         <p>This is The Institute of Human Mechanics.
-                            <br>Optimize your machine.</p>
-                            <div class="break"></div>
+                        <br>Optimize your machine.</p>
                         <a href="./page-about.php" class="cta">Learn More</a>
                     </div>
                 </div>
@@ -48,7 +47,7 @@ require_once('./header.php');
             <div class="row order-invert-desktop">
                 <div class="column align-center justify-left">
                     <div class="copy">
-                        <h2 class="heading align-left">Our Services</h2>
+                        <h2 class="heading">Our Services</h2>
                         <div class="break"></div>
                         <p>With a focus on ground-breaking technology and 
                         <br>medical innovations, The Institute of Human Mechanics 
@@ -80,8 +79,8 @@ require_once('./header.php');
         <div class="container">
             <div class="row">
                 <div class="column align-center">
-                    <div class="copy">
-                        <h2 class="heading justify-self justify-self-center">The Doctors</h2>
+                    <div class="copy centered">
+                        <h2 class="heading">The Doctors</h2>
                         <div class="break"></div>
                         <div class="justify-self justify-self-center">
                         <p>While each of our doctors have different expertise in a 
@@ -106,11 +105,13 @@ require_once('./header.php');
         </div>
     </section>
     <section id="gallery">
-        <div class="container text-align-center">
-            <h2 class="heading">Gallery</h2>
-            <p>Take a look around our state-of-the-art clinic.</p>
-            <a href="#gallery" class="cta">See All</a>
-            
+        <div class="container">
+            <div class="copy align-center">
+                <h2 class="heading">Gallery</h2>
+                <div class="break"></div>
+                <p>Take a look around our state-of-the-art clinic.</p>
+                <a href="#gallery" class="cta">See All</a>
+            </div>
             <!-- Swiper -->
             <div class="gallery">
                 <div class="swiper-container-wrapper">
