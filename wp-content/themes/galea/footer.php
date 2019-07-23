@@ -9,6 +9,9 @@
  * @package galea
  */
 
+$footer_address = get_field("contact_info_address", "options");
+$footer_copyright = get_field("footer_copyright", "options");
+$footer_privacy_policy = get_field("footer_privacy_policy", "options");
 ?>
 
 	</div><!-- #content -->
@@ -28,18 +31,26 @@
 				?>
 			</div>
 			<div class="address-and-notes">
-				<address>199 Avenue Road Toronto ON M5R 2J3</address>
+				<address>
+					<?= $footer_address; ?>
+				</address>
 				<div class="notes">
-					<a href="#privacy-policy">Privacy Policy</a>
-					<span>2019 The Institute of Human Mechanics</span>
-					<span>Desined and bullt by Community</span>
+					<a href="<?= $footer_privacy_policy['url']; ?>">
+						<?= $footer_privacy_policy['title']; ?>
+					</a>
+					<span>
+						<?= $footer_copyright; ?>
+					</span>
+					<span>
+						Designed and built by Community
+					</span>
 				</div>
 			</div>
         </div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
-<?php wp_footer(); ?>
-
+<?php unset($footer_address, $footer_copyright, $footer_privacy_policy);
+wp_footer(); ?>
 </body>
 </html>

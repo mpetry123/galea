@@ -61,13 +61,12 @@ $packages = $content_blocks[2];
         </div>
         <div class="row">
             <div class="column align-center justify-left">
-                <img src="/wp-content/themes/galea/dist/img/feat-img-procedure-package.png" alt="About Us Featured Image" />
+                <img src="<?= $packages['section_featured_image']['url']; ?>" alt="<?= $packages['section_featured_image']['alt']; ?>" />
             </div>
             <div class="column align-center  justify-right">
                 <div class="copy centered">
                 <h2 class="stand-out">
-                    <span>Procedure</span>
-                    <span class="large">package</span>
+                    <?= $packages['section_heading']; ?>
                 </h2>
                 </div>
             </div>

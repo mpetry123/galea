@@ -35,3 +35,11 @@ function galea_pingback_header() {
 	}
 }
 add_action( 'wp_head', 'galea_pingback_header' );
+
+/**
+ * Remove Default Content Edtor
+ */
+function remove_content_editor() {
+	remove_post_type_support('page', 'editor');
+}
+add_action( 'init', 'remove_content_editor' );

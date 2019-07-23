@@ -48,12 +48,8 @@ $family_medicine = $content_blocks[3];
                 <h2 class="heading">
                     <?= $doctors_upper_top['heading']; ?>
                 </h2>
-                <div class="position-and-credentials">
-                    <abbr title="Bachelor of Science.">B. Sc.</abbr>
-                    <abbr title="Doctor of Medicine.">M.D</abbr>
-                    <abbr title="Diploma in Safety Management">Dip.S.M</abbr>
-                    <br>
-                    <span>Medical Doctor</span>
+                <div class="subheading position-and-credentials">
+                    <?= $doctors_upper_top['subheading']; ?>
                 </div>
                 <?= $doctors_upper_top['body_copy']; ?>
                 </div>
@@ -68,13 +64,8 @@ $family_medicine = $content_blocks[3];
                 <h2>
                     <?= $doctors_upper_bottom['heading']; ?>
                 </h2>
-                <div class="position-and-credentials">
-                    <abbr title="Bachelor of Science.">B. Sc.</abbr>
-                    <abbr title="Doctor of Medicine">M.D</abbr>
-                    <abbr title="Doctor of Chiropractic Medicine">D.C</abbr>
-                    <abbr title="College of Family Physicians Canada">CCFP</abbr>
-                    <br>
-                    <span>Medical Doctor</span>
+                <div class="subheading position-and-credentials">
+                    <?= $doctors_upper_bottom['subheading']; ?>
                 </div>
                 <?= $doctors_upper_bottom['body_copy']; ?>
                 </div>

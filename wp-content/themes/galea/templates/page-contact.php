@@ -35,8 +35,7 @@ $lower_section = $content_blocks[1];
             <div class="column align-center">
                 <div class="copy centered">
                     <h2 class="stand-out">
-                        <span>GET IN</span>
-                        <span class="large">TOUCH</span>
+                        <?= $hero['heading']; ?>
                     </h2>
                     <div class="bg-white location-and-contact-info clip-m-shape">
                         <address>
@@ -71,8 +70,8 @@ $lower_section = $content_blocks[1];
         </div>
     </div>
 </section>
-
 <?php
+unset($content_blocks, $hero, $address, $fax, $phone, $email, $lower_section);
 get_template_part('components/contact-us');
 get_footer();
 ?>

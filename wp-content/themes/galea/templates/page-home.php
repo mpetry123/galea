@@ -82,12 +82,12 @@ $gallery = $content_blocks[4];
                         <h2 class="heading"><?= $doctors['heading']; ?></h2>
                         <div class="justify-self justify-self-center">
                         <?= $doctors["body_copy"]; ?>
-                        <a href="<?= $our_services['cta']['url']; ?>" class="cta"><?= $our_services['cta']['title']; ?></a>
+                        <a href="<?= $doctors['cta']['url']; ?>" class="cta"><?= $doctors['cta']['title']; ?></a>
                     </div>
                 </div>
                 <div class="column">
                     <picture>
-                        <img src="/wp-content/themes/galea/dist/img/feat-img-the-doctors.jpg" alt="Our Services" />
+                        <img src="<?= $doctors["featured_image"]["url"]; ?>" alt="<?= $doctors["body_copy"]["alt"]; ?>" />
                     </picture>
                 </div>
             </div>

@@ -1,4 +1,7 @@
 .page-template-page-home {
+    .page-heading {
+        display: none;
+    }
     #the-doctors {
         @media screen and (min-width: $tablet_sm) {
             padding: 0;

@@ -553,6 +553,9 @@ section.hero .stand-out {
   line-height: 1.125;
   font-weight: 600; }
 
+.page-template-page-home .page-heading {
+  display: none; }
+
 @media screen and (min-width: 48rem) {
   .page-template-page-home #the-doctors {
     padding: 0; } }
