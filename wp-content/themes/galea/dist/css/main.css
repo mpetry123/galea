@@ -176,6 +176,10 @@ header {
       transform: rotate(-45deg); }
     header .hamburger.is-active li:nth-child(3) {
       opacity: 0; }
+  header.header-theme-dark a, header.header-theme-dark a:active, header.header-theme-dark a:hover, header.header-theme-dark a:visited {
+    color: #000000; }
+  header.header-theme-light a, header.header-theme-light a:active, header.header-theme-light a:hover, header.header-theme-light a:visited {
+    color: #FFFFFF; }
 
 footer {
   padding: 1.5rem 0;

@@ -81,4 +81,14 @@ header {
             }
         }
     }
+    &.header-theme-dark {
+        a, a:active, a:hover, a:visited {
+            color: $black;
+        }
+    }
+    &.header-theme-light {
+        a, a:active, a:hover, a:visited {
+            color: $white;
+        }
+    }
 }

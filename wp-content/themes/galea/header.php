@@ -9,6 +9,7 @@
  * @package galea
  */
 
+ $header_theme = get_field("header_theme");
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -24,11 +25,11 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'galea' ); ?></a>
 
-	<header id="masthead" class="site-header">
+	<header id="masthead" class="site-header <?= $header_theme; ?>">
 
 		<div class="container">
-				<a href="/static/page-home.php" class="branding">
-					<?php if($dark_header) : ?>
+				<a href="/" class="branding">
+					<?php if($header_theme == "header-theme-light") : ?>
 						<img class="logo logo-desktop logo-light"  alt="logo" src="/wp-content/themes/galea/dist/img/logo-img-full-light.svg" />
 						<img class="logo logo-mobile logo-light" alt="logo" src="/wp-content/themes/galea/dist/img/logo-img-top-light.svg" />
 					<?php else : ?>
