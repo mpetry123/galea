@@ -13,7 +13,8 @@ section, header, footer {
 div.container {
   max-width: 81.25rem;
   margin: 0 auto;
-  padding: 0 1.5rem; }
+  padding: 0 1.5rem;
+  position: relative; }
 
 section {
   position: relative;
@@ -128,7 +129,7 @@ header {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    max-width: 78.75rem; }
+    max-width: 81.25rem; }
     @media screen and (min-width: 64rem) {
       header .container {
         align-items: flex-end;
@@ -554,8 +555,10 @@ section.hero .page-heading {
   padding: 0; }
   @media screen and (min-width: 48rem) {
     section.hero .page-heading {
+      left: 0;
+      top: 0;
       position: absolute;
-      transform: rotate(90deg) translateX(50%);
+      writing-mode: vertical-rl;
       text-transform: uppercase; } }
 
 section.hero .stand-out {

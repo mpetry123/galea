@@ -48,8 +48,9 @@ section.hero {
         margin: 0;
         padding: 0;
         @media screen and (min-width: $tablet_sm) {
+            left: 0; top: 0;
             position: absolute;
-            transform: rotate(90deg) translateX(50%);
+            writing-mode: vertical-rl;
             text-transform: uppercase;
         }
     }

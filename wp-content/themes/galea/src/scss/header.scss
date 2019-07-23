@@ -14,7 +14,7 @@ header {
         flex-flow: row wrap;
         justify-content: space-between;
         align-items: center;
-        max-width: 78.75rem;
+        max-width: $container-width;
         @media screen and (min-width: $tablet_lg) {
             align-items: flex-end;
             min-height: 6.25rem;
