@@ -44,19 +44,19 @@ $gallery = $content_blocks[1];
 <section id="gallery" class="bg-black">
     <div class="container align-center">
         <!-- Swiper -->
-        <div class="gallery">
+        <div class="gallery with-description">
             <div class="swiper-container-wrapper">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                     <? foreach( $gallery['slides'] as $slide) : ?>
                         <div class="swiper-slide">
                             <div class="bg-image" style="background: url('<?= $slide['photo']['url']; ?>');"></div>
-                            <div class="copy">
+                            <div class="copy centered">
                                 <h3 class="heading">
-                                    <?= $slide['photo']['heading']; ?>
+                                    <?= $slide['heading']; ?>
                                 </h3>
                                 <div class="description">
-                                    <?= $slide['photo']['description']; ?>
+                                    <?= $slide['description']; ?>
                                 </div>
                             </div>
                         </div>
@@ -64,24 +64,12 @@ $gallery = $content_blocks[1];
                     </div>
                 </div>
                 <!-- Add Arrows -->
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next light-arrow"></div>
+                <div class="swiper-button-prev light-arrow"></div>
             </div>
         </div>
     </div>
 </section>
 <?php
-get_template_part('components/contact-us');
 get_footer();
 ?>
-
-
-<!--div class="swiper-slide">
-                            <div class="bg-image" style="background: url('/wp-content/themes/galea/dist/img/img-slide-placeholder.jpg');"></div>
-                            <div class="copy">
-                                <h3 class="heading">Image Title</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                                <br>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-                                <br>ad minim veniam, quis nostrud exercitation.</p>
-                            </div>
-                        </div-->

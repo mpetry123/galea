@@ -37,11 +37,13 @@
   .swiper-button-prev {
     left: 0.75rem;
     background-image: url("../img/icon-img-arrow-left-light.svg");
-    
     @media screen and (min-width: $tablet_sm) {
       right: calc(100% + 2.5%);
       left: auto;
       background-image: url("../img/icon-img-arrow-left.svg");
+    }
+    &.light-arrow {
+      background-image: url("../img/icon-img-arrow-left-light.svg");
     }
   }
   .swiper-button-next {
@@ -51,6 +53,9 @@
       left: calc(100% + 2.5%);
       right: auto;
       background-image: url("../img/icon-img-arrow-right.svg");
+    }
+    &.light-arrow {
+      background-image: url("../img/icon-img-arrow-right-light.svg");
     }
   }
   .swiper-pagination-bullets {
@@ -63,6 +68,31 @@
     @media screen and (min-width: $tablet_sm) {
       height: 1rem;
       width: 1rem;
+    }
+  }
+  &.with-description {
+    .swiper-container {
+      @media screen and (min-width: $tablet_lg) {
+        height: 64vw;
+        max-height: 56rem;
+      }
+    }
+    .swiper-slide {
+      position: relative;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: flex-end;
+    }
+    .bg-image {
+      position: relative;
+      width: 100%;
+      flex: 1;
+    }
+    .copy {
+      width: 100%;
+      color: $white;
+      z-index: 2;
+      margin: 0 auto;
     }
   }
 }
