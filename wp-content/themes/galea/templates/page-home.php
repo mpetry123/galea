@@ -13,21 +13,21 @@
  */
 
 get_header();
-
+// Content Blocks
 $content_blocks = get_field("content_blocks");
-
 // Sections
 $hero = $content_blocks[0];
 $about_us = $content_blocks[1];
 $our_services = $content_blocks[2];
 $doctors = $content_blocks[3];
 $gallery = $content_blocks[4];
-
 ?>
     <section id="hero" class="hero bg-image">
         <div class="background-image" style="background-image: url('<?= $hero['featured_image']['url']; ?>');"></div>
         <div class="container">
-            <h1 class="page-heading"><?= get_the_title(); ?></h1>
+            <h1 class="page-heading">
+                <?= get_the_title(); ?>
+            </h1>
             <div class="callout">
                 <strong class="stand-out">
                     <?= $hero['heading']; ?>

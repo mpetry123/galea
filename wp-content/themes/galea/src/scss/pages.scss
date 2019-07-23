@@ -1,4 +1,4 @@
-.page-home {
+.page-template-page-home {
     #the-doctors {
         @media screen and (min-width: $tablet_sm) {
             padding: 0;
@@ -19,7 +19,7 @@
         }
     }
 }
-.page-about {
+.page-template-page-about {
     #understanding-prp {
         .cta {
             margin-bottom: 1rem;
@@ -48,7 +48,7 @@
         }
     }
 }
-.page-services {
+.page-template-page-services {
     #services {
         .stand-out {
             .large {
@@ -57,14 +57,14 @@
         }
     }
 }
-.page-gallery {
+.page-template-page-gallery {
     #gallery {
         .heading {
             color: $white;
         }
     }
 }
-.page-contact {
+.page-template-page-contact {
     #hero {
         img {
             margin: 0;
@@ -116,7 +116,7 @@
             dd {
                 font-family: $raleway;
                 text-align: left;
-                padding-left: 1rem;
+                padding-left: 1rem; //test
             }
         }       
     }

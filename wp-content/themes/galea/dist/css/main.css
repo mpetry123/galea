@@ -535,89 +535,89 @@ section.hero .stand-out {
   font-weight: 600; }
 
 @media screen and (min-width: 48rem) {
-  .page-home #the-doctors {
+  .page-template-page-home #the-doctors {
     padding: 0; } }
 
-.page-home #the-doctors .column:last-child {
+.page-template-page-home #the-doctors .column:last-child {
   margin: 0; }
 
-.page-home #the-doctors img {
+.page-template-page-home #the-doctors img {
   object-fit: cover;
   margin: 0 -1.5rem -3rem; }
   @media screen and (min-width: 48rem) {
-    .page-home #the-doctors img {
+    .page-template-page-home #the-doctors img {
       margin: 0;
       height: 100%;
       max-height: 45rem; } }
 
-.page-about #understanding-prp .cta {
+.page-template-page-about #understanding-prp .cta {
   margin-bottom: 1rem; }
 
-.page-about #understanding-prp .column {
+.page-template-page-about #understanding-prp .column {
   margin: 0 2.5%; }
   @media screen and (max-width: 63rem) {
-    .page-about #understanding-prp .column {
+    .page-template-page-about #understanding-prp .column {
       flex: 1 1 100%;
       margin: 0; } }
   @media screen and (min-width: 64rem) {
-    .page-about #understanding-prp .column {
+    .page-template-page-about #understanding-prp .column {
       padding-top: 5.5rem; } }
-  .page-about #understanding-prp .column:first-child {
+  .page-template-page-about #understanding-prp .column:first-child {
     padding-top: 0;
     margin-left: 0; }
-  .page-about #understanding-prp .column:last-child {
+  .page-template-page-about #understanding-prp .column:last-child {
     margin-right: 0; }
 
 @media screen and (max-width: 63rem) {
-  .page-about #understanding-prp .copy {
+  .page-template-page-about #understanding-prp .copy {
     max-width: 100%; } }
 
-.page-services #services .stand-out .large {
+.page-template-page-services #services .stand-out .large {
   font-size: 3.125rem; }
 
-.page-gallery #gallery .heading {
+.page-template-page-gallery #gallery .heading {
   color: #FFFFFF; }
 
-.page-contact #hero img {
+.page-template-page-contact #hero img {
   margin: 0; }
 
-.page-contact #hero .stand-out {
+.page-template-page-contact #hero .stand-out {
   margin: 0; }
 
 @media screen and (min-width: 48rem) {
-  .page-contact #hero .column:last-child {
+  .page-template-page-contact #hero .column:last-child {
     margin: 0; } }
 
-.page-contact .location-and-contact-info {
+.page-template-page-contact .location-and-contact-info {
   margin: 0 auto;
   width: 100%;
   resize: both;
   overflow: hidden;
   max-width: 24rem;
   min-height: 25rem; }
-  .page-contact .location-and-contact-info address {
+  .page-template-page-contact .location-and-contact-info address {
     margin-top: 12rem;
     font-weight: 600;
     font-style: normal;
     color: #000000;
     text-align: center; }
-  .page-contact .location-and-contact-info .contact-data {
+  .page-template-page-contact .location-and-contact-info .contact-data {
     display: flex;
     justify-content: center;
     flex-wrap: wrap; }
-    .page-contact .location-and-contact-info .contact-data a {
+    .page-template-page-contact .location-and-contact-info .contact-data a {
       color: #000000;
       text-decoration: none; }
-    .page-contact .location-and-contact-info .contact-data dt, .page-contact .location-and-contact-info .contact-data dd {
+    .page-template-page-contact .location-and-contact-info .contact-data dt, .page-template-page-contact .location-and-contact-info .contact-data dd {
       margin: 0;
       width: calc(50% - 2rem); }
-    .page-contact .location-and-contact-info .contact-data dt {
+    .page-template-page-contact .location-and-contact-info .contact-data dt {
       font-family: "Roboto", "Proxima Nova", "Raleway", "Arial", sans;
       font-weight: bold;
       text-transform: uppercase;
       text-align: right;
       padding-right: 1rem; }
-    .page-contact .location-and-contact-info .contact-data dd {
+    .page-template-page-contact .location-and-contact-info .contact-data dd {
       font-family: "Raleway", "Proxima Nova", "Roboto", "Arial", sans;
       text-align: left;
       padding-left: 1rem; }

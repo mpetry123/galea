@@ -13,18 +13,19 @@
  */
 
 get_header();
-
+// Content Blocks
 $content_blocks = get_field("content_blocks");
-
+// Sections
 $hero = $content_blocks[0];
 $doctors_upper_top = $content_blocks[1];
 $doctors_upper_bottom = $content_blocks[2];
 $family_medicine = $content_blocks[3];
-
 ?>
 <section id="hero" class="hero bg-black">
     <div class="container">
-        <h1 class="page-heading"><?= get_the_title(); ?></h1>
+        <h1 class="page-heading">
+            <?= get_the_title(); ?>
+        </h1>
         <div class="row order-invert-desktop">
             <div class="column">
             <img src="<?= $hero['featured_image']['url']; ?>" width="510" alt="<?= $hero['featured_image']['alt']; ?>" />

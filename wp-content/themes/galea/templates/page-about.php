@@ -13,9 +13,8 @@
  */
 
 get_header();
-
+// Content Blocks
 $content_blocks = get_field("content_blocks");
-
 // Sections
 $hero = $content_blocks[0];
 $our_vision = $content_blocks[1];
@@ -24,7 +23,9 @@ $services = $content_blocks[2];
 
 <section id="hero" class="hero bg-black">
     <div class="container">
-        <h1 class="page-heading"><?= get_the_title(); ?></h1>
+        <h1 class="page-heading">
+            <?= get_the_title(); ?>
+        </h1>
         <div class="row order-invert-desktop">
             <div class="column">
                 <picture>
