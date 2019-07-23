@@ -18,7 +18,7 @@ $content_blocks = get_field("content_blocks");
 $hero = $content_blocks[0];
 $gallery = $content_blocks[1];
 ?>
-<section id="hero" class="hero">
+<section id="hero" class="hero bg-white">
     <div class="container">
         <h1 class="page-heading">
             <?= the_title(); ?>
@@ -71,5 +71,6 @@ $gallery = $content_blocks[1];
     </div>
 </section>
 <?php
+unset( $content_blocks, $hero, $gallery );
 get_footer();
 ?>

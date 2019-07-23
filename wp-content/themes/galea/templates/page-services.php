@@ -39,7 +39,7 @@ $packages = $content_blocks[2];
         </div>
     </div>
 </section>
-<section id="services">
+<section id="services" class="bg-white">
     <div class="container">
         <div class="row">
             <div class="column">
@@ -129,5 +129,6 @@ $packages = $content_blocks[2];
 </section>
 <?php get_template_part('components/contact-us'); ?>
 <?php
+unset( $content_blocks, $hero, $upper_section, $packages );
 get_footer();
 ?>

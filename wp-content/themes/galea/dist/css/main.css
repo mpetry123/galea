@@ -72,7 +72,7 @@ section {
 .bg-black {
   background: #000000;
   color: #FFFFFF; }
-  .bg-black a {
+  .bg-black a, .bg-black a:active, .bg-black a:hover, .bg-black a:visited {
     color: #FFFFFF; }
   .bg-black .cta {
     border: 1px solid #FFFFFF; }
@@ -80,10 +80,14 @@ section {
 .bg-gray {
   background-color: #F4F4F4;
   color: #000000; }
+  .bg-gray a, .bg-gray a:active, .bg-gray a:hover, .bg-gray a:visited {
+    color: #000000; }
 
 .bg-white {
   background-color: #FFFFFF;
   color: #000000; }
+  .bg-white a, .bg-white a:active, .bg-white a:hover, .bg-white a:visited {
+    color: #000000; }
 
 br {
   display: none; }
@@ -528,6 +532,8 @@ section.hero.bg-image {
     @media screen and (min-width: 48rem) {
       section.hero.bg-image .background-image {
         background-size: 120%; } }
+  section.hero.bg-image a, section.hero.bg-image a:active, section.hero.bg-image a:hover, section.hero.bg-image a:visited {
+    color: #000000; }
 
 section.hero .multi-column {
   align-items: center; }

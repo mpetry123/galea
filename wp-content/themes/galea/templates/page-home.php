@@ -56,7 +56,7 @@ $gallery = $content_blocks[4];
             </div>
         </div>
     </section>
-    <section id="our-services">
+    <section id="our-services" class="bg-white">
         <div class="container">
             <div class="row <?= $our_services['order']; ?>">
                 <div class="column align-center justify-left">
@@ -93,7 +93,7 @@ $gallery = $content_blocks[4];
             </div>
         </div>
     </section>
-    <section id="gallery">
+    <section id="gallery" class="bg-white">
         <div class="container">
             <div class="copy align-center">
                 <h2 class="heading"><?= $gallery['heading']; ?></h2>
@@ -123,5 +123,6 @@ $gallery = $content_blocks[4];
     </section>
     <?php get_template_part('components/contact-us'); ?>
 <?php
+unset( $content_blocks, $hero, $about_us, $our_services, $doctors, $gallery );
 get_footer();
 ?>

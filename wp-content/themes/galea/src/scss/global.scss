@@ -104,7 +104,7 @@ section {
 .bg-black {
     background: $black;
     color: $white;
-    a {
+    a, a:active, a:hover, a:visited {
         color: $white;
     }
     .cta {
@@ -114,10 +114,16 @@ section {
 .bg-gray {
     background-color: $gray;
     color: $black;
+    a, a:active, a:hover, a:visited {
+        color: $black;
+    }
 }
 .bg-white {
     background-color: $white;
     color: $black;
+    a, a:active, a:hover, a:visited {
+        color: $black;
+    }
 }
 br {
     display: none;

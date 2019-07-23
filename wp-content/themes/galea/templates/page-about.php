@@ -60,7 +60,7 @@ $services = $content_blocks[2];
         </div>
     </div>
 </section>
-<section id="understanding-prp">
+<section id="understanding-prp" class="bg-white">
     <div class="container">
         <div class="multi-column">
             <div class="column">
@@ -86,5 +86,6 @@ $services = $content_blocks[2];
 </section>
 <?php get_template_part('components/contact-us'); ?>
 <?php
+unset( $content_blocks, $hero, $our_vision, $services );
 get_footer();
 ?>

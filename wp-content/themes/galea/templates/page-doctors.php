@@ -40,7 +40,7 @@ $family_medicine = $content_blocks[3];
         </div>
     </div>
 </section>
-<section>
+<section id="doctors-upper" class="bg-white">
     <div class="container">
         <div class="row order-invert-desktop">
             <div class="column align-center justify-right">
@@ -76,7 +76,7 @@ $family_medicine = $content_blocks[3];
         </div>
     </div>
 </section>
-<section id="hero" class="bg-black">
+<section id="family-package" class="bg-black">
     <div class="container">
         <div class="row  order-invert-desktop">
             <div class="column align-center">
@@ -92,11 +92,9 @@ $family_medicine = $content_blocks[3];
         </div>
     </div>
 </section>
-
-<section>
+<section id="doctors-lower" class="bg-white">
     <div class="container">
         <div class="row">
-        
         <div class="column  justify-left">
             <div class="copy centered">
                 <h2 class="heading">
@@ -151,6 +149,7 @@ $family_medicine = $content_blocks[3];
 <?php get_template_part('components/contact-us'); ?>
 
 <?php
+unset( $content_blocks, $hero, $doctors_upper_top, $doctors_upper_bottom, $family_medicine );
 get_footer();
 ?>
 

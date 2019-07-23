@@ -1,3 +1,4 @@
+
 section.hero {
     @media screen and (min-width: $tablet_lg) {
         padding: 11.25rem 0 6.25rem;
@@ -25,6 +26,9 @@ section.hero {
             @media screen and (min-width: $tablet_sm) {
                 background-size: 120%;
             }
+        }
+        a, a:active, a:hover, a:visited {
+            color: $black;
         }
     }
     
