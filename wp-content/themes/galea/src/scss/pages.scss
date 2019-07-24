@@ -21,6 +21,14 @@
             }
         }
     }
+    #gallery {
+        .gallery {
+            margin: 4rem -1.5rem -3rem;
+            @media screen and (min-width: $tablet_sm) {
+                margin: 4rem 5% 0; 
+            }
+        }
+    }
 }
 .page-template-page-about {
     #understanding-prp {
@@ -61,6 +69,13 @@
     }
 }
 .page-template-page-gallery {
+    #hero {
+        .copy {
+            p {
+                text-align: center; 
+            }
+        }
+    }
     #gallery {
         .heading {
             color: $white;

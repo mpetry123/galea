@@ -35,6 +35,10 @@ section {
     letter-spacing: 1.25;
     line-height: 1.625; }
 
+.page {
+  margin: 0;
+  padding: 0; }
+
 .heading {
   font-family: "Roboto", "Proxima Nova", "Raleway", "Arial", sans;
   text-transform: uppercase; }
@@ -92,7 +96,7 @@ section {
 
 br {
   display: none; }
-  @media screen and (min-width: 90rem) {
+  @media screen and (min-width: 85.375rem) {
     br {
       display: block; } }
 
@@ -196,6 +200,7 @@ footer {
         flex-flow: row wrap;
         justify-content: space-between; } }
   footer nav {
+    background-color: transparent;
     margin: 1rem; }
     footer nav a {
       font-size: 0.875rem;
@@ -236,7 +241,8 @@ footer {
         footer .notes a {
           margin: 0 0.25rem 0 0; } }
 
-form input, form label, form .selectric .label {
+form input[type=text], form label {
+  border-radius: 0;
   display: block;
   color: #000000;
   font-size: 0.875rem;
@@ -245,7 +251,7 @@ form input, form label, form .selectric .label {
   margin: 0;
   font-weight: 500; }
 
-form input, form textarea {
+form input[type=text], form textarea {
   position: relative;
   background-color: transparent;
   outline: none;
@@ -253,14 +259,14 @@ form input, form textarea {
   width: 100%;
   position: relative; }
 
-form input {
+form input[type=text] {
   border-bottom: 1px solid #000000; }
-  form input[type=submit] {
-    display: inline-block;
-    margin: 0 auto;
-    width: auto;
-    padding: 0 3rem;
-    line-height: 1; }
+
+form input[type=submit] {
+  display: inline-block;
+  margin: 0 auto;
+  width: auto;
+  line-height: 1; }
 
 form ul {
   list-style: none; }
@@ -280,7 +286,8 @@ form .validation_message {
   position: absolute;
   font-size: 0.85rem;
   color: #000000;
-  font-weight: 600; }
+  font-weight: 600;
+  color: #ff0000; }
 
 form .gform_footer {
   text-align: center;
@@ -339,18 +346,11 @@ section .row, section .multi-column {
     flex: 0 1 100%; }
     @media screen and (min-width: 48rem) {
       section .row .column, section .row .content, section .multi-column .column, section .multi-column .content {
-        margin: 0 5%;
+        margin: 0 6.5%;
         flex: 1 1 0; } }
 
 section .copy {
-  width: 100%;
   text-align: left; }
-  @media screen and (min-width: 48rem) {
-    section .copy {
-      max-width: 30rem; } }
-  @media screen and (min-width: 48rem) {
-    section .copy-wide {
-      max-width: 40rem; } }
   section .copy.centered {
     text-align: center; }
     section .copy.centered p {
@@ -363,8 +363,9 @@ section .copy {
   section .container.justify-left, section .column.justify-left {
     justify-content: flex-start; } }
 
-section .container.justify-center, section .column.justify-center {
-  justify-content: center; }
+@media screen and (min-width: 48rem) {
+  section .container.justify-center, section .column.justify-center {
+    justify-content: center; } }
 
 @media screen and (min-width: 48rem) {
   section .container.justify-right, section .column.justify-right {
@@ -430,84 +431,93 @@ nav {
         display: inline-block;
         padding: 0.5rem; } }
 
-.gallery {
-  margin: 4rem -1.5rem -3rem; }
-  @media screen and (min-width: 48rem) {
-    .gallery {
-      margin: 4rem 5% 0; } }
-  .gallery .swiper-container {
-    height: 100vw;
-    max-height: 40rem; }
-    @media screen and (min-width: 64rem) {
-      .gallery .swiper-container {
-        height: 50vw;
-        max-height: 40rem; } }
-  .gallery .swiper-container-wrapper {
-    position: relative; }
-  .gallery .swiper-slide {
-    position: relative; }
-    .gallery .swiper-slide .bg-image {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%; }
-  .gallery .swiper-button-prev, .gallery .swiper-button-next {
-    outline: none;
-    background-size: cover; }
-    @media screen and (min-width: 64rem) {
-      .gallery .swiper-button-prev, .gallery .swiper-button-next {
-        height: 5.375rem;
-        width: 2.5rem;
-        display: block; } }
-  .gallery .swiper-button-prev {
-    left: 0.75rem;
-    background-image: url("../img/icon-img-arrow-left-light.svg"); }
-    @media screen and (min-width: 48rem) {
-      .gallery .swiper-button-prev {
-        right: calc(100% + 2.5%);
-        left: auto;
-        background-image: url("../img/icon-img-arrow-left.svg"); } }
-    .gallery .swiper-button-prev.light-arrow {
-      background-image: url("../img/icon-img-arrow-left-light.svg"); }
-  .gallery .swiper-button-next {
-    right: 0.75rem;
-    background-image: url("../img/icon-img-arrow-right-light.svg"); }
-    @media screen and (min-width: 48rem) {
-      .gallery .swiper-button-next {
-        left: calc(100% + 2.5%);
-        right: auto;
-        background-image: url("../img/icon-img-arrow-right.svg"); } }
-    .gallery .swiper-button-next.light-arrow {
-      background-image: url("../img/icon-img-arrow-right-light.svg"); }
-  .gallery .swiper-pagination-bullets {
-    bottom: 1.5rem; }
-  .gallery .swiper-pagination-bullet {
-    background-color: #FFFFFF;
-    height: 0.5rem;
-    width: 0.5rem; }
-    @media screen and (min-width: 48rem) {
-      .gallery .swiper-pagination-bullet {
-        height: 1rem;
-        width: 1rem; } }
+.gallery .swiper-container {
+  height: 100vw;
+  max-height: 40rem; }
   @media screen and (min-width: 64rem) {
-    .gallery.with-description .swiper-container {
-      height: 64vw;
-      max-height: 56rem; } }
-  .gallery.with-description .swiper-slide {
-    position: relative;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-end; }
-  .gallery.with-description .bg-image {
-    position: relative;
-    width: 100%;
-    flex: 1; }
-  .gallery.with-description .copy {
-    width: 100%;
-    color: #FFFFFF;
-    z-index: 2;
-    margin: 0 auto; }
+    .gallery .swiper-container {
+      height: 50vw;
+      max-height: 40rem; } }
+
+.gallery .swiper-container-wrapper {
+  position: relative; }
+
+.gallery .swiper-slide {
+  position: relative; }
+  .gallery .swiper-slide .bg-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+
+.gallery .swiper-button-prev, .gallery .swiper-button-next {
+  outline: none;
+  background-size: cover; }
+  @media screen and (min-width: 64rem) {
+    .gallery .swiper-button-prev, .gallery .swiper-button-next {
+      height: 5.375rem;
+      width: 2.5rem;
+      display: block; } }
+
+.gallery .swiper-button-prev {
+  left: 0.75rem;
+  background-image: url("../img/icon-img-arrow-left-light.svg"); }
+  @media screen and (min-width: 48rem) {
+    .gallery .swiper-button-prev {
+      right: calc(100% + 2.5%);
+      left: auto;
+      background-image: url("../img/icon-img-arrow-left.svg"); } }
+  .gallery .swiper-button-prev.light-arrow {
+    background-image: url("../img/icon-img-arrow-left-light.svg"); }
+
+.gallery .swiper-button-next {
+  right: 0.75rem;
+  background-image: url("../img/icon-img-arrow-right-light.svg"); }
+  @media screen and (min-width: 48rem) {
+    .gallery .swiper-button-next {
+      left: calc(100% + 2.5%);
+      right: auto;
+      background-image: url("../img/icon-img-arrow-right.svg"); } }
+  .gallery .swiper-button-next.light-arrow {
+    background-image: url("../img/icon-img-arrow-right-light.svg"); }
+
+.gallery .swiper-pagination-bullets {
+  bottom: 1.5rem; }
+
+.gallery .swiper-pagination-bullet {
+  background-color: #FFFFFF;
+  height: 0.5rem;
+  width: 0.5rem; }
+  @media screen and (min-width: 48rem) {
+    .gallery .swiper-pagination-bullet {
+      height: 1rem;
+      width: 1rem; } }
+
+@media screen and (min-width: 64rem) {
+  .gallery.with-description .swiper-container {
+    height: 64vw;
+    max-height: 56rem; } }
+
+.gallery.with-description .swiper-slide {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end; }
+
+.gallery.with-description .bg-image {
+  position: relative;
+  width: 100%;
+  flex: 1; }
+
+.gallery.with-description .copy {
+  width: 100%;
+  color: #FFFFFF;
+  z-index: 2;
+  margin: 0 auto; }
 
 @media screen and (min-width: 64rem) {
   section.hero {
@@ -566,6 +576,10 @@ section.hero .stand-out {
   line-height: 1.125;
   font-weight: 600; }
 
+@media screen and (min-width: 48rem) {
+  section.hero .column {
+    margin: 0 2%; } }
+
 .page-template-page-home .page-heading {
   display: none; }
 
@@ -584,6 +598,12 @@ section.hero .stand-out {
       margin: 0;
       height: 100%;
       max-height: 45rem; } }
+
+.page-template-page-home #gallery .gallery {
+  margin: 4rem -1.5rem -3rem; }
+  @media screen and (min-width: 48rem) {
+    .page-template-page-home #gallery .gallery {
+      margin: 4rem 5% 0; } }
 
 .page-template-page-about #understanding-prp .cta {
   margin-bottom: 1rem; }
@@ -609,6 +629,9 @@ section.hero .stand-out {
 
 .page-template-page-services #services .stand-out .large {
   font-size: 3.125rem; }
+
+.page-template-page-gallery #hero .copy p {
+  text-align: center; }
 
 .page-template-page-gallery #gallery .heading {
   color: #FFFFFF; }

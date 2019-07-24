@@ -65,7 +65,7 @@ $lower_section = $content_blocks[1];
                 <h2 class="heading">
                     <?= $lower_section['heading']; ?>
                 </h2>
-                <?= do_shortcode("[gravityform id=". $lower_section['form_id'] ." title=false description=false ajax=true tabindex=49]"); ?>
+                <?= do_shortcode("[gravityform id=". $lower_section['form_id'] ." title=false description=false ajax=false tabindex=49]"); ?>
             </div>
         </div>
     </div>

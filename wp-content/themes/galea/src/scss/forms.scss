@@ -1,6 +1,6 @@
 form {
-    input, label, .selectric .label {
-
+    input[type=text], label {
+        border-radius: 0;
         display: block;
         color: $black;
         font-size: 0.875rem;
@@ -9,7 +9,7 @@ form {
         margin: 0;
         font-weight: 500;
     }
-    input, textarea {
+    input[type=text], textarea {
         position: relative;
         background-color: transparent;
         outline: none;
@@ -19,12 +19,14 @@ form {
     }
     
     input {
-        border-bottom: 1px solid $black;
+        &[type=text] {
+            border-bottom: 1px solid $black;
+        }
         &[type=submit] {
             display: inline-block;
             margin: 0 auto;
             width: auto;
-            padding: 0 3rem;
+            //padding: 0 3rem;
             line-height: 1;
         }
     }
@@ -48,6 +50,7 @@ form {
         font-size: 0.85rem;
         color: $black;
         font-weight: 600;
+        color: $red;
     }
     .gform_footer {
         text-align: center;

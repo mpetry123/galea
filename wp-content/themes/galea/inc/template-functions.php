@@ -43,3 +43,25 @@ function remove_content_editor() {
 	remove_post_type_support('page', 'editor');
 }
 add_action( 'init', 'remove_content_editor' );
+
+/**
+ * Remove Gutenberg Block Styles
+ */
+function remove_block_css(){
+	wp_dequeue_style( 'wp-block-library' );
+}
+add_action( 'wp_enqueue_scripts', 'remove_block_css', 100 );
+
+/**
+ * Add Style to Gravity Forms Submit
+ */
+function add_custom_css_classes( $button, $form ) {
+    $dom = new DOMDocument();
+    $dom->loadHTML( $button );
+    $input = $dom->getElementsByTagName( 'input' )->item(0);
+    $classes = $input->getAttribute( 'class' );
+    $classes .= " button cta";
+    $input->setAttribute( 'class', $classes );
+    return $dom->saveHtml( $input );
+}
+add_filter( 'gform_submit_button', 'add_custom_css_classes', 10, 2 );

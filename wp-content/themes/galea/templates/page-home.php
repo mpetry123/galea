@@ -81,8 +81,9 @@ $gallery = $content_blocks[4];
                     <div class="copy centered">
                         <h2 class="heading"><?= $doctors['heading']; ?></h2>
                         <div class="justify-self justify-self-center">
-                        <?= $doctors["body_copy"]; ?>
-                        <a href="<?= $doctors['cta']['url']; ?>" class="cta"><?= $doctors['cta']['title']; ?></a>
+                            <?= $doctors["body_copy"]; ?>
+                            <a href="<?= $doctors['cta']['url']; ?>" class="cta"><?= $doctors['cta']['title']; ?></a>
+                        </div>
                     </div>
                 </div>
                 <div class="column">
@@ -107,7 +108,7 @@ $gallery = $content_blocks[4];
                         <div class="swiper-wrapper">
                             <? foreach( $gallery['slides'] as $slide) : ?>
                             <div class="swiper-slide">
-                                <div class="bg-image" style="background: url('<?= $slide['photo']['url']; ?>);"></div>
+                                <div class="bg-image" style="background-image: url('<?= $slide['photo']['url']; ?>);"></div>
                             </div>
                             <? endforeach; ?>
                         </div>

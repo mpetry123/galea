@@ -59,4 +59,9 @@ section.hero {
         line-height: 1.125;
         font-weight: 600;
     }
+    .column {
+        @media screen and (min-width: $tablet_sm) {
+            margin: 0 2%;
+        }
+    }
 }

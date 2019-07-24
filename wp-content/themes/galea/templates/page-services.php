@@ -63,7 +63,7 @@ $packages = $content_blocks[2];
             <div class="column align-center justify-left">
                 <img src="<?= $packages['section_featured_image']['url']; ?>" alt="<?= $packages['section_featured_image']['alt']; ?>" />
             </div>
-            <div class="column align-center  justify-right">
+            <div class="column align-center  justify-center">
                 <div class="copy centered">
                 <h2 class="stand-out">
                     <?= $packages['section_heading']; ?>
@@ -80,7 +80,7 @@ $packages = $content_blocks[2];
                 <?= $packages['columns'][0]['body_copy']; ?>
                 </div>
             </div>
-            <div class="column justify-right">
+            <div class="column justify-center">
                 <div class="copy centered">
                     <h2 class="heading">
                         <?= $packages['columns'][1]['heading']; ?>
@@ -98,7 +98,7 @@ $packages = $content_blocks[2];
                     <?= $packages['columns'][2]['body_copy']; ?>
                     </div>
             </div>
-            <div class="column  justify-right">
+            <div class="column  justify-center">
                 <div class="copy centered">
                     <h2 class="heading">
                         <?= $packages['columns'][3]['heading']; ?>
@@ -116,7 +116,7 @@ $packages = $content_blocks[2];
                     <?= $packages['columns'][4]['body_copy']; ?>
                 </div>
             </div>
-            <div class="column justify-right">
+            <div class="column justify-center">
                 <div class="copy centered">
                     <h2 class="heading">
                         <?= $packages['columns'][5]['heading']; ?>

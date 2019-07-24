@@ -50,7 +50,7 @@ $gallery = $content_blocks[1];
                     <div class="swiper-wrapper">
                     <? foreach( $gallery['slides'] as $slide) : ?>
                         <div class="swiper-slide">
-                            <div class="bg-image" style="background: url('<?= $slide['photo']['url']; ?>');"></div>
+                            <div class="bg-image" style="background-image: url('<?= $slide['photo']['url']; ?>');"></div>
                             <div class="copy centered">
                                 <h3 class="heading">
                                     <?= $slide['heading']; ?>

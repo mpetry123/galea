@@ -44,7 +44,7 @@ var jQuery = null;
       const toggleMenu = function() {
         
         const menuToggle = document.querySelector("[data-js=toggleMenu");
-        const menu = document.querySelector("[data-js=menu]");
+        const menu = document.querySelector("header nav");
 
         if(window.getComputedStyle(menu).display == "flex") {
           menu.style.display = "none";
@@ -61,6 +61,8 @@ var jQuery = null;
 
     if ( !window.Galea ) window.Galea = {};
       window.Galea.Globals = Globals;
+
+    
         
     /* START DOMContentLoaded Event Listeners */
     document.addEventListener("DOMContentLoaded", function() {

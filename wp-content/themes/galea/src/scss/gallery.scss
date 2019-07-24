@@ -1,8 +1,5 @@
 .gallery {
-  margin: 4rem -1.5rem -3rem;
-  @media screen and (min-width: $tablet_sm) {
-    margin: 4rem 5% 0; 
-  }
+  
   .swiper-container {
     height: 100vw;
     max-height: 40rem;
@@ -17,6 +14,9 @@
   .swiper-slide {
     position: relative;
     .bg-image {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
       position: absolute;
       top: 0;
       left: 0;

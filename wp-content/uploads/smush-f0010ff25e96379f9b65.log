@@ -1,0 +1,287 @@
+[2019-07-22 21:11:41 : INFO] - 
+ 
+[2019-07-22 21:11:41 : INFO] - Header for logs at time:  Mon, 22 Jul 2019 21:11:41 +0000 on http://galea.localdev 
+[2019-07-22 21:11:41 : INFO] - WP: 5.2.2 
+[2019-07-22 21:11:41 : INFO] - PHP: 7.2.9 (fpm-fcgi, Linux 300f84976e9f 4.9.93-boot2docker #1 SMP Thu Jul 19 18:29:50 UTC 2018 x86_64) 
+[2019-07-22 21:11:41 : INFO] - MySQL: 5.7.23 
+[2019-07-22 21:11:41 : INFO] - WPLANG: en_US 
+[2019-07-22 21:11:41 : INFO] - Server: nginx/1.14.0 
+[2019-07-22 21:11:41 : INFO] - Outbound connections: N 
+[2019-07-22 21:11:41 : INFO] - safe_mode: 0 
+[2019-07-22 21:11:41 : INFO] - max_execution_time: 1200 
+[2019-07-22 21:11:41 : INFO] - memory_limit: 256M (used: 5.6M | 4M) 
+[2019-07-22 21:11:41 : INFO] - multisite: N 
+[2019-07-22 21:11:41 : INFO] - openssl: OpenSSL 1.1.0f  25 May 2017 
+[2019-07-22 21:11:41 : INFO] - A total of 4 tasks of type smush found and will be processed in this iteration 
+[2019-07-22 21:11:41 : INFO] - Set semaphore last lock (smush) time to 2019-07-22 21:11:41 
+[2019-07-22 21:11:41 : INFO] - Semaphore lock (smush) complete 
+[2019-07-22 21:11:41 : INFO] - Processing task with ID : 18, and type 'smush' 
+[2019-07-22 21:11:41 : INFO] - Nitro_Smush_Task with attachment ID : 127, autocreated on : July 22, 2019 09:04:57 
+[2019-07-22 21:11:41 : INFO] - 95 
+[2019-07-22 21:11:43 : INFO] - Backing up the original image - /app/public/wp-content/uploads/2019/07/feat-img-dr-3-updraft-pre-smush-original.png 
+[2019-07-22 21:11:43 : INFO] - Nitro_Smush_Task with attachment ID : 127, autocreated on : July 22, 2019 09:04:57 
+[2019-07-22 21:11:43 : INFO] - 95 
+[2019-07-22 21:11:43 : INFO] - Nitro_Smush_Task with attachment ID : 127, autocreated on : July 22, 2019 09:04:57 
+[2019-07-22 21:11:43 : INFO] - 95 
+[2019-07-22 21:11:45 : INFO] - Successfully optimized the image - /app/public/wp-content/uploads/2019/07/feat-img-dr-3.png.The file was compressed from 143.14 KB to 98.30 KB saving 31.32 percent using WP-Optimize 
+[2019-07-22 21:11:45 : INFO] - Completed processing task with ID : 18, and type 'smush' 
+[2019-07-22 21:11:45 : INFO] - Processing task with ID : 19, and type 'smush' 
+[2019-07-22 21:11:45 : INFO] - Nitro_Smush_Task with attachment ID : 128, autocreated on : July 22, 2019 09:04:57 
+[2019-07-22 21:11:45 : INFO] - 95 
+[2019-07-22 21:11:46 : INFO] - Backing up the original image - /app/public/wp-content/uploads/2019/07/feat-img-family-medicine-updraft-pre-smush-original.png 
+[2019-07-22 21:11:46 : INFO] - Nitro_Smush_Task with attachment ID : 128, autocreated on : July 22, 2019 09:04:57 
+[2019-07-22 21:11:46 : INFO] - 95 
+[2019-07-22 21:11:47 : INFO] - Nitro_Smush_Task with attachment ID : 128, autocreated on : July 22, 2019 09:04:57 
+[2019-07-22 21:11:47 : INFO] - 95 
+[2019-07-22 21:11:48 : INFO] - Successfully optimized the image - /app/public/wp-content/uploads/2019/07/feat-img-family-medicine.png.The file was compressed from 128.74 KB to 98.87 KB saving 23.2 percent using WP-Optimize 
+[2019-07-22 21:11:48 : INFO] - Completed processing task with ID : 19, and type 'smush' 
+[2019-07-22 21:11:48 : INFO] - Processing task with ID : 20, and type 'smush' 
+[2019-07-22 21:11:48 : INFO] - Nitro_Smush_Task with attachment ID : 129, autocreated on : July 22, 2019 09:04:58 
+[2019-07-22 21:11:48 : INFO] - 95 
+[2019-07-22 21:11:50 : INFO] - Backing up the original image - /app/public/wp-content/uploads/2019/07/feat-img-dr-2-updraft-pre-smush-original.png 
+[2019-07-22 21:11:50 : INFO] - Nitro_Smush_Task with attachment ID : 129, autocreated on : July 22, 2019 09:04:58 
+[2019-07-22 21:11:50 : INFO] - 95 
+[2019-07-22 21:11:51 : INFO] - Nitro_Smush_Task with attachment ID : 129, autocreated on : July 22, 2019 09:04:58 
+[2019-07-22 21:11:51 : INFO] - 95 
+[2019-07-22 21:11:52 : INFO] - Successfully optimized the image - /app/public/wp-content/uploads/2019/07/feat-img-dr-2.png.The file was compressed from 174.60 KB to 123.28 KB saving 29.39 percent using WP-Optimize 
+[2019-07-22 21:11:52 : INFO] - Completed processing task with ID : 20, and type 'smush' 
+[2019-07-22 21:11:52 : INFO] - Processing task with ID : 21, and type 'smush' 
+[2019-07-22 21:11:52 : INFO] - Nitro_Smush_Task with attachment ID : 130, autocreated on : July 22, 2019 09:04:58 
+[2019-07-22 21:11:52 : INFO] - 95 
+[2019-07-22 21:11:53 : INFO] - Backing up the original image - /app/public/wp-content/uploads/2019/07/feat-img-dr-1-updraft-pre-smush-original.png 
+[2019-07-22 21:11:53 : INFO] - Nitro_Smush_Task with attachment ID : 130, autocreated on : July 22, 2019 09:04:58 
+[2019-07-22 21:11:53 : INFO] - 95 
+[2019-07-22 21:11:54 : INFO] - Nitro_Smush_Task with attachment ID : 130, autocreated on : July 22, 2019 09:04:58 
+[2019-07-22 21:11:54 : INFO] - 95 
+[2019-07-22 21:11:55 : INFO] - Successfully optimized the image - /app/public/wp-content/uploads/2019/07/feat-img-dr-1.png.The file was compressed from 45.53 KB to 32.39 KB saving 28.87 percent using WP-Optimize 
+[2019-07-22 21:11:55 : INFO] - Completed processing task with ID : 21, and type 'smush' 
+[2019-07-22 21:11:55 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-07-22 21:11:55 : INFO] - Semaphore (smush) unlocked 
+[2019-07-22 21:11:55 : INFO] - Successfully processed the queue (smush). 4 tasks were processed out of 4. 
+[2019-07-22 21:11:55 : INFO] - Semaphore (smush, wp_options) was successfully cleaned up 
+[2019-07-22 21:11:55 : INFO] - Cleaning up tasks of type (smush). A total of 4 tasks will be deleted. 
+[2019-07-22 21:22:51 : INFO] - 
+ 
+[2019-07-22 21:22:51 : INFO] - Header for logs at time:  Mon, 22 Jul 2019 21:22:51 +0000 on http://galea.localdev 
+[2019-07-22 21:22:51 : INFO] - WP: 5.2.2 
+[2019-07-22 21:22:51 : INFO] - PHP: 7.2.9 (fpm-fcgi, Linux 300f84976e9f 4.9.93-boot2docker #1 SMP Thu Jul 19 18:29:50 UTC 2018 x86_64) 
+[2019-07-22 21:22:51 : INFO] - MySQL: 5.7.23 
+[2019-07-22 21:22:51 : INFO] - WPLANG: en_US 
+[2019-07-22 21:22:51 : INFO] - Server: nginx/1.14.0 
+[2019-07-22 21:22:51 : INFO] - Outbound connections: N 
+[2019-07-22 21:22:51 : INFO] - safe_mode: 0 
+[2019-07-22 21:22:51 : INFO] - max_execution_time: 1200 
+[2019-07-22 21:22:51 : INFO] - memory_limit: 256M (used: 5.6M | 2M) 
+[2019-07-22 21:22:51 : INFO] - multisite: N 
+[2019-07-22 21:22:51 : INFO] - openssl: OpenSSL 1.1.0f  25 May 2017 
+[2019-07-22 21:22:51 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2019-07-23 13:51:29 : INFO] - Nitro_Smush_Task with attachment ID : 134, autocreated on : July 23, 2019 01:51:29 
+[2019-07-23 13:57:12 : INFO] - 
+ 
+[2019-07-23 13:57:12 : INFO] - Header for logs at time:  Tue, 23 Jul 2019 13:57:12 +0000 on http://galea.localdev 
+[2019-07-23 13:57:12 : INFO] - WP: 5.2.2 
+[2019-07-23 13:57:12 : INFO] - PHP: 7.2.9 (fpm-fcgi, Linux 300f84976e9f 4.9.93-boot2docker #1 SMP Thu Jul 19 18:29:50 UTC 2018 x86_64) 
+[2019-07-23 13:57:12 : INFO] - MySQL: 5.7.23 
+[2019-07-23 13:57:12 : INFO] - WPLANG: en_US 
+[2019-07-23 13:57:12 : INFO] - Server: nginx/1.14.0 
+[2019-07-23 13:57:12 : INFO] - Outbound connections: N 
+[2019-07-23 13:57:12 : INFO] - safe_mode: 0 
+[2019-07-23 13:57:12 : INFO] - max_execution_time: 1200 
+[2019-07-23 13:57:12 : INFO] - memory_limit: 256M (used: 5.6M | 4M) 
+[2019-07-23 13:57:12 : INFO] - multisite: N 
+[2019-07-23 13:57:12 : INFO] - openssl: OpenSSL 1.1.0f  25 May 2017 
+[2019-07-23 13:57:12 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2019-07-23 13:57:12 : INFO] - Set semaphore last lock (smush) time to 2019-07-23 13:57:12 
+[2019-07-23 13:57:12 : INFO] - Semaphore lock (smush) complete 
+[2019-07-23 13:57:12 : INFO] - Processing task with ID : 22, and type 'smush' 
+[2019-07-23 13:57:12 : INFO] - Nitro_Smush_Task with attachment ID : 134, autocreated on : July 23, 2019 01:51:29 
+[2019-07-23 13:57:12 : INFO] - 95 
+[2019-07-23 13:57:13 : INFO] - Backing up the original image - /app/public/wp-content/uploads/2019/07/feat-img-family-medicine-1-updraft-pre-smush-original.png 
+[2019-07-23 13:57:13 : INFO] - Nitro_Smush_Task with attachment ID : 134, autocreated on : July 23, 2019 01:51:29 
+[2019-07-23 13:57:13 : INFO] - 95 
+[2019-07-23 13:57:14 : INFO] - Nitro_Smush_Task with attachment ID : 134, autocreated on : July 23, 2019 01:51:29 
+[2019-07-23 13:57:14 : INFO] - 95 
+[2019-07-23 13:57:15 : INFO] - Successfully optimized the image - /app/public/wp-content/uploads/2019/07/feat-img-family-medicine-1.png.The file was compressed from 128.74 KB to 98.87 KB saving 23.2 percent using WP-Optimize 
+[2019-07-23 13:57:15 : INFO] - Completed processing task with ID : 22, and type 'smush' 
+[2019-07-23 13:57:15 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-07-23 13:57:15 : INFO] - Semaphore (smush) unlocked 
+[2019-07-23 13:57:15 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2019-07-23 13:57:15 : INFO] - Semaphore (smush, wp_options) was successfully cleaned up 
+[2019-07-23 13:57:15 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2019-07-23 13:59:33 : INFO] - Nitro_Smush_Task with attachment ID : 141, autocreated on : July 23, 2019 01:59:33 
+[2019-07-23 14:07:24 : INFO] - 
+ 
+[2019-07-23 14:07:24 : INFO] - Header for logs at time:  Tue, 23 Jul 2019 14:07:24 +0000 on http://galea.localdev 
+[2019-07-23 14:07:24 : INFO] - WP: 5.2.2 
+[2019-07-23 14:07:24 : INFO] - PHP: 7.2.9 (fpm-fcgi, Linux 300f84976e9f 4.9.93-boot2docker #1 SMP Thu Jul 19 18:29:50 UTC 2018 x86_64) 
+[2019-07-23 14:07:24 : INFO] - MySQL: 5.7.23 
+[2019-07-23 14:07:24 : INFO] - WPLANG: en_US 
+[2019-07-23 14:07:24 : INFO] - Server: nginx/1.14.0 
+[2019-07-23 14:07:24 : INFO] - Outbound connections: N 
+[2019-07-23 14:07:24 : INFO] - safe_mode: 0 
+[2019-07-23 14:07:24 : INFO] - max_execution_time: 1200 
+[2019-07-23 14:07:24 : INFO] - memory_limit: 256M (used: 5.6M | 4M) 
+[2019-07-23 14:07:24 : INFO] - multisite: N 
+[2019-07-23 14:07:24 : INFO] - openssl: OpenSSL 1.1.0f  25 May 2017 
+[2019-07-23 14:07:24 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2019-07-23 14:07:24 : INFO] - Set semaphore last lock (smush) time to 2019-07-23 14:07:24 
+[2019-07-23 14:07:24 : INFO] - Semaphore lock (smush) complete 
+[2019-07-23 14:07:24 : INFO] - Processing task with ID : 23, and type 'smush' 
+[2019-07-23 14:07:24 : INFO] - Nitro_Smush_Task with attachment ID : 141, autocreated on : July 23, 2019 01:59:33 
+[2019-07-23 14:07:24 : INFO] - 95 
+[2019-07-23 14:07:26 : INFO] - Backing up the original image - /app/public/wp-content/uploads/2019/07/feat-img-dr-3-1-updraft-pre-smush-original.png 
+[2019-07-23 14:07:26 : INFO] - Nitro_Smush_Task with attachment ID : 141, autocreated on : July 23, 2019 01:59:33 
+[2019-07-23 14:07:26 : INFO] - 95 
+[2019-07-23 14:07:27 : INFO] - Nitro_Smush_Task with attachment ID : 141, autocreated on : July 23, 2019 01:59:33 
+[2019-07-23 14:07:27 : INFO] - 95 
+[2019-07-23 14:07:28 : INFO] - Successfully optimized the image - /app/public/wp-content/uploads/2019/07/feat-img-dr-3-1.png.The file was compressed from 143.14 KB to 98.30 KB saving 31.32 percent using WP-Optimize 
+[2019-07-23 14:07:28 : INFO] - Completed processing task with ID : 23, and type 'smush' 
+[2019-07-23 14:07:28 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-07-23 14:07:28 : INFO] - Semaphore (smush) unlocked 
+[2019-07-23 14:07:28 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2019-07-23 14:07:28 : INFO] - Semaphore (smush, wp_options) was successfully cleaned up 
+[2019-07-23 14:07:28 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2019-07-23 14:14:05 : INFO] - Nitro_Smush_Task with attachment ID : 147, autocreated on : July 23, 2019 02:14:05 
+[2019-07-23 14:17:46 : INFO] - 
+ 
+[2019-07-23 14:17:46 : INFO] - Header for logs at time:  Tue, 23 Jul 2019 14:17:46 +0000 on http://galea.localdev 
+[2019-07-23 14:17:46 : INFO] - WP: 5.2.2 
+[2019-07-23 14:17:46 : INFO] - PHP: 7.2.9 (fpm-fcgi, Linux 300f84976e9f 4.9.93-boot2docker #1 SMP Thu Jul 19 18:29:50 UTC 2018 x86_64) 
+[2019-07-23 14:17:46 : INFO] - MySQL: 5.7.23 
+[2019-07-23 14:17:46 : INFO] - WPLANG: en_US 
+[2019-07-23 14:17:46 : INFO] - Server: nginx/1.14.0 
+[2019-07-23 14:17:46 : INFO] - Outbound connections: N 
+[2019-07-23 14:17:46 : INFO] - safe_mode: 0 
+[2019-07-23 14:17:46 : INFO] - max_execution_time: 1200 
+[2019-07-23 14:17:46 : INFO] - memory_limit: 256M (used: 5.6M | 4M) 
+[2019-07-23 14:17:46 : INFO] - multisite: N 
+[2019-07-23 14:17:46 : INFO] - openssl: OpenSSL 1.1.0f  25 May 2017 
+[2019-07-23 14:17:46 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2019-07-23 14:17:46 : INFO] - Set semaphore last lock (smush) time to 2019-07-23 14:17:46 
+[2019-07-23 14:17:46 : INFO] - Semaphore lock (smush) complete 
+[2019-07-23 14:17:46 : INFO] - Processing task with ID : 24, and type 'smush' 
+[2019-07-23 14:17:46 : INFO] - Nitro_Smush_Task with attachment ID : 147, autocreated on : July 23, 2019 02:14:05 
+[2019-07-23 14:17:46 : INFO] - 95 
+[2019-07-23 14:17:48 : INFO] - Backing up the original image - /app/public/wp-content/uploads/2019/07/hero-feat-img-gallery-updraft-pre-smush-original.png 
+[2019-07-23 14:17:48 : INFO] - Nitro_Smush_Task with attachment ID : 147, autocreated on : July 23, 2019 02:14:05 
+[2019-07-23 14:17:48 : INFO] - 95 
+[2019-07-23 14:17:49 : INFO] - Nitro_Smush_Task with attachment ID : 147, autocreated on : July 23, 2019 02:14:05 
+[2019-07-23 14:17:49 : INFO] - 95 
+[2019-07-23 14:17:50 : INFO] - Successfully optimized the image - /app/public/wp-content/uploads/2019/07/hero-feat-img-gallery.png.The file was compressed from 244.66 KB to 145.53 KB saving 40.52 percent using WP-Optimize 
+[2019-07-23 14:17:50 : INFO] - Completed processing task with ID : 24, and type 'smush' 
+[2019-07-23 14:17:50 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-07-23 14:17:50 : INFO] - Semaphore (smush) unlocked 
+[2019-07-23 14:17:50 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2019-07-23 14:17:50 : INFO] - Semaphore (smush, wp_options) was successfully cleaned up 
+[2019-07-23 14:17:50 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2019-07-23 14:27:52 : INFO] - 
+ 
+[2019-07-23 14:27:52 : INFO] - Header for logs at time:  Tue, 23 Jul 2019 14:27:52 +0000 on http://galea.localdev 
+[2019-07-23 14:27:52 : INFO] - WP: 5.2.2 
+[2019-07-23 14:27:52 : INFO] - PHP: 7.2.9 (fpm-fcgi, Linux 300f84976e9f 4.9.93-boot2docker #1 SMP Thu Jul 19 18:29:50 UTC 2018 x86_64) 
+[2019-07-23 14:27:52 : INFO] - MySQL: 5.7.23 
+[2019-07-23 14:27:52 : INFO] - WPLANG: en_US 
+[2019-07-23 14:27:52 : INFO] - Server: nginx/1.14.0 
+[2019-07-23 14:27:52 : INFO] - Outbound connections: N 
+[2019-07-23 14:27:52 : INFO] - safe_mode: 0 
+[2019-07-23 14:27:52 : INFO] - max_execution_time: 1200 
+[2019-07-23 14:27:52 : INFO] - memory_limit: 256M (used: 5.6M | 4M) 
+[2019-07-23 14:27:52 : INFO] - multisite: N 
+[2019-07-23 14:27:52 : INFO] - openssl: OpenSSL 1.1.0f  25 May 2017 
+[2019-07-23 14:27:52 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2019-07-23 14:44:14 : INFO] - Nitro_Smush_Task with attachment ID : 158, autocreated on : July 23, 2019 02:44:14 
+[2019-07-23 14:49:19 : INFO] - 
+ 
+[2019-07-23 14:49:19 : INFO] - Header for logs at time:  Tue, 23 Jul 2019 14:49:19 +0000 on http://galea.localdev 
+[2019-07-23 14:49:19 : INFO] - WP: 5.2.2 
+[2019-07-23 14:49:19 : INFO] - PHP: 7.2.9 (fpm-fcgi, Linux 300f84976e9f 4.9.93-boot2docker #1 SMP Thu Jul 19 18:29:50 UTC 2018 x86_64) 
+[2019-07-23 14:49:19 : INFO] - MySQL: 5.7.23 
+[2019-07-23 14:49:19 : INFO] - WPLANG: en_US 
+[2019-07-23 14:49:19 : INFO] - Server: nginx/1.14.0 
+[2019-07-23 14:49:19 : INFO] - Outbound connections: N 
+[2019-07-23 14:49:19 : INFO] - safe_mode: 0 
+[2019-07-23 14:49:19 : INFO] - max_execution_time: 1200 
+[2019-07-23 14:49:19 : INFO] - memory_limit: 256M (used: 5.6M | 2M) 
+[2019-07-23 14:49:19 : INFO] - multisite: N 
+[2019-07-23 14:49:19 : INFO] - openssl: OpenSSL 1.1.0f  25 May 2017 
+[2019-07-23 14:49:19 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2019-07-23 14:49:19 : INFO] - Set semaphore last lock (smush) time to 2019-07-23 14:49:19 
+[2019-07-23 14:49:19 : INFO] - Semaphore lock (smush) complete 
+[2019-07-23 14:49:19 : INFO] - Processing task with ID : 25, and type 'smush' 
+[2019-07-23 14:49:19 : INFO] - Nitro_Smush_Task with attachment ID : 158, autocreated on : July 23, 2019 02:44:14 
+[2019-07-23 14:49:19 : INFO] - 95 
+[2019-07-23 14:49:20 : INFO] - Backing up the original image - /app/public/wp-content/uploads/2019/07/hero-feat-img-map-updraft-pre-smush-original.png 
+[2019-07-23 14:49:20 : INFO] - Nitro_Smush_Task with attachment ID : 158, autocreated on : July 23, 2019 02:44:14 
+[2019-07-23 14:49:20 : INFO] - 95 
+[2019-07-23 14:49:21 : INFO] - Nitro_Smush_Task with attachment ID : 158, autocreated on : July 23, 2019 02:44:14 
+[2019-07-23 14:49:21 : INFO] - 95 
+[2019-07-23 14:49:22 : INFO] - Successfully optimized the image - /app/public/wp-content/uploads/2019/07/hero-feat-img-map.png.The file was compressed from 100.37 KB to 39.11 KB saving 61.04 percent using WP-Optimize 
+[2019-07-23 14:49:22 : INFO] - Completed processing task with ID : 25, and type 'smush' 
+[2019-07-23 14:49:22 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-07-23 14:49:22 : INFO] - Semaphore (smush) unlocked 
+[2019-07-23 14:49:22 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2019-07-23 14:49:22 : INFO] - Semaphore (smush, wp_options) was successfully cleaned up 
+[2019-07-23 14:49:22 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2019-07-23 14:59:19 : INFO] - 
+ 
+[2019-07-23 14:59:19 : INFO] - Header for logs at time:  Tue, 23 Jul 2019 14:59:19 +0000 on http://galea.localdev 
+[2019-07-23 14:59:19 : INFO] - WP: 5.2.2 
+[2019-07-23 14:59:19 : INFO] - PHP: 7.2.9 (fpm-fcgi, Linux 300f84976e9f 4.9.93-boot2docker #1 SMP Thu Jul 19 18:29:50 UTC 2018 x86_64) 
+[2019-07-23 14:59:19 : INFO] - MySQL: 5.7.23 
+[2019-07-23 14:59:19 : INFO] - WPLANG: en_US 
+[2019-07-23 14:59:19 : INFO] - Server: nginx/1.14.0 
+[2019-07-23 14:59:19 : INFO] - Outbound connections: N 
+[2019-07-23 14:59:19 : INFO] - safe_mode: 0 
+[2019-07-23 14:59:19 : INFO] - max_execution_time: 1200 
+[2019-07-23 14:59:19 : INFO] - memory_limit: 256M (used: 5.6M | 4M) 
+[2019-07-23 14:59:19 : INFO] - multisite: N 
+[2019-07-23 14:59:19 : INFO] - openssl: OpenSSL 1.1.0f  25 May 2017 
+[2019-07-23 14:59:19 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2019-07-23 15:24:39 : INFO] - Nitro_Smush_Task with attachment ID : 165, autocreated on : July 23, 2019 03:24:39 
+[2019-07-23 15:30:29 : INFO] - 
+ 
+[2019-07-23 15:30:29 : INFO] - Header for logs at time:  Tue, 23 Jul 2019 15:30:29 +0000 on http://galea.localdev 
+[2019-07-23 15:30:29 : INFO] - WP: 5.2.2 
+[2019-07-23 15:30:29 : INFO] - PHP: 7.2.9 (fpm-fcgi, Linux 300f84976e9f 4.9.93-boot2docker #1 SMP Thu Jul 19 18:29:50 UTC 2018 x86_64) 
+[2019-07-23 15:30:29 : INFO] - MySQL: 5.7.23 
+[2019-07-23 15:30:29 : INFO] - WPLANG: en_US 
+[2019-07-23 15:30:29 : INFO] - Server: nginx/1.14.0 
+[2019-07-23 15:30:29 : INFO] - Outbound connections: N 
+[2019-07-23 15:30:29 : INFO] - safe_mode: 0 
+[2019-07-23 15:30:29 : INFO] - max_execution_time: 1200 
+[2019-07-23 15:30:29 : INFO] - memory_limit: 256M (used: 5.6M | 4M) 
+[2019-07-23 15:30:29 : INFO] - multisite: N 
+[2019-07-23 15:30:29 : INFO] - openssl: OpenSSL 1.1.0f  25 May 2017 
+[2019-07-23 15:30:29 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2019-07-23 15:30:29 : INFO] - Set semaphore last lock (smush) time to 2019-07-23 15:30:29 
+[2019-07-23 15:30:29 : INFO] - Semaphore lock (smush) complete 
+[2019-07-23 15:30:29 : INFO] - Processing task with ID : 26, and type 'smush' 
+[2019-07-23 15:30:29 : INFO] - Nitro_Smush_Task with attachment ID : 165, autocreated on : July 23, 2019 03:24:39 
+[2019-07-23 15:30:29 : INFO] - 95 
+[2019-07-23 15:30:31 : INFO] - Backing up the original image - /app/public/wp-content/uploads/2019/07/feat-img-contact-updraft-pre-smush-original.png 
+[2019-07-23 15:30:31 : INFO] - Nitro_Smush_Task with attachment ID : 165, autocreated on : July 23, 2019 03:24:39 
+[2019-07-23 15:30:31 : INFO] - 95 
+[2019-07-23 15:30:32 : INFO] - Nitro_Smush_Task with attachment ID : 165, autocreated on : July 23, 2019 03:24:39 
+[2019-07-23 15:30:32 : INFO] - 95 
+[2019-07-23 15:30:33 : INFO] - Successfully optimized the image - /app/public/wp-content/uploads/2019/07/feat-img-contact.png.The file was compressed from 179.36 KB to 128.69 KB saving 28.25 percent using WP-Optimize 
+[2019-07-23 15:30:33 : INFO] - Completed processing task with ID : 26, and type 'smush' 
+[2019-07-23 15:30:33 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-07-23 15:30:33 : INFO] - Semaphore (smush) unlocked 
+[2019-07-23 15:30:33 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2019-07-23 15:30:33 : INFO] - Semaphore (smush, wp_options) was successfully cleaned up 
+[2019-07-23 15:30:33 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2019-07-23 15:40:34 : INFO] - 
+ 
+[2019-07-23 15:40:34 : INFO] - Header for logs at time:  Tue, 23 Jul 2019 15:40:34 +0000 on http://galea.localdev 
+[2019-07-23 15:40:34 : INFO] - WP: 5.2.2 
+[2019-07-23 15:40:34 : INFO] - PHP: 7.2.9 (fpm-fcgi, Linux 300f84976e9f 4.9.93-boot2docker #1 SMP Thu Jul 19 18:29:50 UTC 2018 x86_64) 
+[2019-07-23 15:40:34 : INFO] - MySQL: 5.7.23 
+[2019-07-23 15:40:34 : INFO] - WPLANG: en_US 
+[2019-07-23 15:40:34 : INFO] - Server: nginx/1.14.0 
+[2019-07-23 15:40:34 : INFO] - Outbound connections: N 
+[2019-07-23 15:40:34 : INFO] - safe_mode: 0 
+[2019-07-23 15:40:34 : INFO] - max_execution_time: 1200 
+[2019-07-23 15:40:34 : INFO] - memory_limit: 256M (used: 5.6M | 2M) 
+[2019-07-23 15:40:34 : INFO] - multisite: N 
+[2019-07-23 15:40:34 : INFO] - openssl: OpenSSL 1.1.0f  25 May 2017 
+[2019-07-23 15:40:34 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 

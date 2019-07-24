@@ -108,7 +108,7 @@ $family_medicine = $content_blocks[3];
                 </div>
             </div>
         </div>
-            <div class="column justify-right">
+            <div class="column justify-left">
                 <div class="copy centered">
                     <h2 class="heading">
                         <?= $family_medicine['columns'][1]['heading']; ?>
